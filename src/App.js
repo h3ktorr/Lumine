@@ -5,11 +5,11 @@ function App() {
   return (
     <div className="App">
       {mensTop.map((top) => {
-        const { id, name, image, price, category } = top;
+        const { id, name, image } = top;
         return (
           <div key={id}>
             <h1>{name}</h1>
-            <img src={image[1]} />
+            <img src={image[1]} alt="" />
           </div>
         );
       })}

@@ -147,6 +147,47 @@ import GreenDavison2 from "./men tops/KHM031547-385-BACK_4d593435-3ea3-42e8-bf0c
 import GreenDavison3 from "./men tops/KHM031547-385-DETAIL-1_720x.jpg";
 import GreenDavison4 from "./men tops/KHM031547-385-DETAIL-2_720x.jpg";
 import GreenDavison5 from "./men tops/KHM031547-385-DETAIL-3_720x.jpg";
+import Jaydin1 from "./men tops/KHM031878-001-FRONT_720x.jpg";
+import Jaydin2 from "./men tops/KHM031878-001-BACK_720x.jpg";
+import Jaydin3 from "./men tops/KHM031878-001-DETAIL-1_720x.jpg";
+import Jaydin4 from "./men tops/KHM031878-001-DETAIL-2_720x.jpg";
+import Jaydin5 from "./men tops/KHM031878-001-DETAIL-3_720x.jpg";
+import Interlock1 from "./men tops/KHM031671-002-FRONT_720x.jpg";
+import Interlock2 from "./men tops/KHM031671-002-BACK_720x.jpg";
+import Interlock3 from "./men tops/KHM031671-002-DETAIL-1_720x.jpg";
+import Interlock4 from "./men tops/KHM031671-002-DETAIL-2_720x.jpg";
+import Interlock5 from "./men tops/KHM031671-002-DETAIL-3_720x.jpg";
+import Sebastian1 from "./men tops/KHM031668-212-FRONT_720x.jpg";
+import Sebastian2 from "./men tops/KHM031668-212-BACK_720x.jpg";
+import Sebastian3 from "./men tops/Kith_Winter_23_LB_Pt1_LOOK10_SHOT4_2640_720x.jpg";
+import Sebastian4 from "./men tops/KHM031668-212-DETAIL-1_720x.jpg";
+import Sebastian5 from "./men tops/KHM031668-212-DETAIL-2_720x.jpg";
+import WilliamsIII1 from "./men tops/KHM031670-002-FRONT_720x.jpg";
+import WilliamsIII2 from "./men tops/KHM031670-002-BACK_720x.jpg";
+import WilliamsIII3 from "./men tops/KHM031670-002-DETAIL-1_720x.jpg";
+import WilliamsIII4 from "./men tops/KHM031670-002-DETAIL-2_720x.jpg";
+import WilliamsIII5 from "./men tops/KHM031670-002-DETAIL-3_720x.jpg";
+import RedBergdorf1 from "./men tops/KHM031765-681-FRONT_720x.jpg";
+import RedBergdorf2 from "./men tops/KHM031765-681-BACK_720x.jpg";
+import RedBergdorf3 from "./men tops/KHM031765-681-DETAIL-1_720x.jpg";
+import RedBergdorf4 from "./men tops/KHM031765-681-DETAIL-2_720x.jpg";
+import GreyBergdorf1 from "./men tops/KHM010408-413-FRONT_720x.jpg";
+import GreyBergdorf2 from "./men tops/KHM010408-413-BACK_720x.jpg";
+import GreyBergdorf3 from "./men tops/KHM010408-413-DETAIL-1_720x.jpg";
+import GreyBergdorf4 from "./men tops/KHM010408-413-DETAIL-2_720x.jpg";
+import Sherpa1 from "./men tops/KHM010408-105-FRONT_720x.jpg";
+import Sherpa2 from "./men tops/KHM010408-105-BACK_720x.jpg";
+import Sherpa3 from "./men tops/KHM010408-105-DETAIL-1_720x.jpg";
+import Sherpa4 from "./men tops/KHM010408-105-DETAIL-2_720x.jpg";
+import Shaggy1 from "./men tops/KHM010464-413-FRONT_720x.jpg";
+import Shaggy2 from "./men tops/KHM010464-413-BACK_720x.jpg";
+import Shaggy3 from "./men tops/KHM010464-413-DETAIL-1_720x.jpg";
+import Shaggy4 from "./men tops/KHM010464-413-DETAIL-2_720x.jpg";
+import Varsity1 from "./men tops/KHM031539-302-FRONT_720x.jpg";
+import Varsity2 from "./men tops/KHM031539-302-BACK_720x.jpg";
+import Varsity3 from "./men tops/KHM031539-302-DETAIL-1_720x.jpg";
+import Varsity4 from "./men tops/KHM031539-302-DETAIL-2_720x.jpg";
+import Varsity5 from "./men tops/KHM031539-302-DETAIL-3_720x.jpg";
 
 
 let mensTop = [
@@ -552,6 +593,119 @@ let mensTop = [
       3: GreenDavison3,
       4: GreenDavison4,
       5: GreenDavison5,
+    },
+    category: `men's top`,
+  },
+  {
+    id: 32,
+    name: "Patchwork Jaydin Buttondown Shirt",
+    price: 1660,
+    image: {
+      1: Jaydin1,
+      2: Jaydin2,
+      3: Jaydin3,
+      4: Jaydin4,
+      5: Jaydin5,
+    },
+    category: `men's top`,
+  },
+  {
+    id: 33,
+    name: "Striped Interlock Samson Henley",
+    price: 1429,
+    image: {
+      1: Interlock1,
+      2: Interlock2,
+      3: Interlock3,
+      4: Interlock4,
+      5: Interlock5,
+    },
+    category: `men's top`,
+  },
+  {
+    id: 34,
+    name: "Sebastian Quarter Zip",
+    price: 3181,
+    image: {
+      1: Sebastian1,
+      2: Sebastian2,
+      3: Sebastian3,
+      4: Sebastian4,
+      5: Sebastian5,
+    },
+    category: `men's top`,
+  },
+  {
+    id: 35,
+    name: "Striped Interlock Williams III Hoodie",
+    price: 1614,
+    image: {
+      1: WilliamsIII1,
+      2: WilliamsIII2,
+      3: WilliamsIII3,
+      4: WilliamsIII4,
+      5: WilliamsIII5,
+    },
+    category: `men's top`,
+  },
+  {
+    id: 36,
+    name: "Bergdorf Goodman Varsity Nelson",
+    price: 1529,
+    image: {
+      1: RedBergdorf1,
+      2: RedBergdorf2,
+      3: RedBergdorf3,
+      4: RedBergdorf4,
+    },
+    category: `men's top`,
+  },
+  {
+    id: 37,
+    name: "Bergdorf Goodman Heavy Sherpa Quarter",
+    price: 2070,
+    image: {
+      1: GreyBergdorf1,
+      2: GreyBergdorf2,
+      3: GreyBergdorf3,
+      4: GreyBergdorf4,
+    },
+    category: `men's top`,
+  },
+  {
+    id: 38,
+    name: "Bergdorf Goodman Heavy Sherpa Quarter",
+    price: 2075,
+    image: {
+      1: Sherpa1,
+      2: Sherpa2,
+      3: Sherpa3,
+      4: Sherpa4,
+    },
+    category: `men's top`,
+  },
+  {
+    id: 39,
+    name: "Claremont Shaggy Sherpa Quarter Zip",
+    price: 2259,
+    image: {
+      1: Shaggy1,
+      2: Shaggy2,
+      3: Shaggy3,
+      4: Shaggy4,
+    },
+    category: `men's top`,
+  },
+  {
+    id: 40,
+    name: "Wyona Full Zip Varsity Sweater",
+    price: 2720,
+    image: {
+      1: Varsity1,
+      2: Varsity2,
+      3: Varsity3,
+      4: Varsity4,
+      5: Varsity5,
     },
     category: `men's top`,
   },
