@@ -1,11 +1,12 @@
 import mensTop from "./Components/Assets/mens_top";
 import mensOuterwear from "./Components/Assets/mens_outerwear";
+import mensBottom from "./Components/Assets/mens_bottom";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      {mensOuterwear.map((top) => {
+      {mensBottom.map((top) => {
         const { id, name, image } = top;
         return (
           <div key={id}>
