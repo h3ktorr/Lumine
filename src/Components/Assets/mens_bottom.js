@@ -79,6 +79,130 @@ import BlackChauncey2 from "./mens bottom/KHM060472-211-BACK_9130ecb3-fb78-4dcd-
 import BlackChauncey3 from "./mens bottom/KHM060472-211-DETAIL-1_720x.jpg";
 import BlackChauncey4 from "./mens bottom/KHM060472-211-DETAIL-3_720x.jpg";
 import BlackChauncey5 from "./mens bottom/KHM060472-211-DETAIL-4_720x.jpg";
+import DarkChauncey1 from "./mens bottom/KHM060472-413-FRONT_048480ac-2025-4c77-86cd-9204393235f6_720x.jpg";
+import DarkChauncey2 from "./mens bottom/KHM060472-413-BACK_b152e11d-12b5-4f31-9a9e-5d51f734ba4a_720x.jpg";
+import DarkChauncey3 from "./mens bottom/KHM060472-413-DETAIL-1_720x.jpg";
+import DarkChauncey4 from "./mens bottom/Men_s_Fall_23_Day_3_SHOT-30_1676_0946cf9d-f098-439a-a696-f8b984a472b7_720x.jpg";
+import DarkChauncey5 from "./mens bottom/KHM060472-413-DETAIL-3_720x.jpg";
+import Curtis1 from "./mens bottom/KHM060449-730-FRONT_720x.jpg";
+import Curtis2 from "./mens bottom/KHM060449-730-BACK_720x.jpg";
+import Curtis3 from "./mens bottom/KHM060449-730-DETAIL-1_720x.jpg";
+import Curtis4 from "./mens bottom/KHM060449-730-DETAIL-2_720x.jpg";
+import Curtis5 from "./mens bottom/KHM060449-730-DETAIL-3_720x.jpg";
+import Turbo1 from "./mens bottom/KHM060470-302-FRONT_720x.jpg";
+import Turbo2 from "./mens bottom/KHM060470-302-BACK_720x.jpg";
+import Turbo3 from "./mens bottom/KHM060470-302-DETAIL-1_720x.jpg";
+import Turbo4 from "./mens bottom/KHM060470-302-DETAIL-2_720x.jpg";
+import Turbo5 from "./mens bottom/KHM060470-302-DETAIL-5_720x.jpg";
+import MilkTurbo1 from "./mens bottom/KHM060470-964-FRONT_720x.jpg";
+import MilkTurbo2 from "./mens bottom/KHM060470-964-BACK_720x.jpg";
+import MilkTurbo3 from "./mens bottom/KHM060470-964-DETAIL-1_720x.jpg";
+import MilkTurbo4 from "./mens bottom/KHM060470-964-DETAIL-2_720x.jpg";
+import MilkTurbo5 from "./mens bottom/KHM060470-964-DETAIL-3_720x.jpg";
+import WhiteElmhurst1 from "./mens bottom/khm060447-002-front_720_720x.jpg";
+import WhiteElmhurst2 from "./mens bottom/KHM060447-002-BACK_720x.jpg";
+import WhiteElmhurst3 from "./mens bottom/khm060447-002-detail-1_720_720x.jpg";
+import WhiteElmhurst4 from "./mens bottom/Men_s_Fall_23_Day_3_SHOT-31_1727_720x.jpg";
+import WhiteElmhurst5 from "./mens bottom/khm060447-002-detail-2_720_720x.jpg";
+import BlackElmhurst1 from "./mens bottom/KHM060447-413-FRONT_720x.jpg";
+import BlackElmhurst2 from "./mens bottom/KHM060447-413-BACK_720x.jpg";
+import BlackElmhurst3 from "./mens bottom/KHM060447-413-DETAIL-2_720x.jpg";
+import BlackElmhurst4 from "./mens bottom/KHM060447-413-DETAIL-1_720x.jpg";
+import BrownWeave1 from "./mens bottom/KHM060440-203-FRONT_720x.jpg";
+import BrownWeave2 from "./mens bottom/KHM060440-203-BACK_720x.jpg";
+import BrownWeave3 from "./mens bottom/KHM060440-203-DETAIL-1_720x.jpg";
+import BrownWeave4 from "./mens bottom/KHM060440-203-DETAIL-2_720x.jpg";
+import BrownWeave5 from "./mens bottom/KHM060440-203-DETAIL-3_720x.jpg";
+import GreyWeave1 from "./mens bottom/KHM060446-154-FRONT_720x.jpg";
+import GreyWeave2 from "./mens bottom/KHM060446-154-BACK_720x.jpg";
+import GreyWeave3 from "./mens bottom/KHM060446-154-DETAIL-1_720x.jpg";
+import GreyWeave4 from "./mens bottom/KHM060446-154-DETAIL-2_720x.jpg";
+import Quilted1 from "./mens bottom/KHM060440-104-FRONT_720x.jpg";
+import Quilted2 from "./mens bottom/KHM060440-104-BACK_720x.jpg";
+import Quilted3 from "./mens bottom/KHM060440-104-DETAIL-1_720x.jpg";
+import Quilted4 from "./mens bottom/KHM060440-104-DETAIL-2_720x.jpg";
+import Quilted5 from "./mens bottom/KHM060440-104-DETAIL-4_720x.jpg";
+import Collins1 from "./mens bottom/KHM060392-413-FRONT_720x.jpg";
+import Collins2 from "./mens bottom/KHM060392-413-BACK_720x.jpg";
+import Collins3 from "./mens bottom/KHM060392-413-DETAIL-1_720x.jpg";
+import Collins4 from "./mens bottom/KHM060392-413-DETAIL-2_720x.jpg";
+import Collins5 from "./mens bottom/KHM060392-413-DETAIL-4_720x.jpg";
+import Wash1 from "./mens bottom/KHM060450-290-FRONT_720x.jpg";
+import Wash2 from "./mens bottom/KHM060450-290-BACK_720x.jpg";
+import Wash3 from "./mens bottom/KHM060450-290-DETAIL-1_720x.jpg";
+import Wash4 from "./mens bottom/KHM060450-290-DETAIL-2_720x.jpg";
+import Wash5 from "./mens bottom/KHM060450-290-DETAIL-3_720x.jpg";
+import GreyWash1 from "./mens bottom/KHM060450-301-FRONT_720x.jpg";
+import GreyWash2 from "./mens bottom/KHM060450-301-BACK_720x.jpg";
+import GreyWash3 from "./mens bottom/KHM060450-301-DETAIL-1_720x.jpg";
+import GreyWash4 from "./mens bottom/KHM060450-301-DETAIL-2_720x.jpg";
+import GreyWash5 from "./mens bottom/KHM060450-301-DETAIL-3_720x.jpg";
+import Waffle1 from "./mens bottom/KHM060393-001-FRONT_720x.jpg";
+import Waffle2 from "./mens bottom/KHM060393-001-BACK_720x.jpg";
+import Waffle3 from "./mens bottom/KHM060393-001-DETAIL-1_720x.jpg";
+import Waffle4 from "./mens bottom/KHM060393-001-DETAIL-2_720x.jpg";
+import BrownWaffle1 from "./mens bottom/KHM060393-106-FRONT_720x.jpg";
+import BrownWaffle2 from "./mens bottom/KHM060393-106-BACK_720x.jpg";
+import BrownWaffle3 from "./mens bottom/KHM060393-106-DETAIL-1_720x.jpg";
+import BrownWaffle4 from "./mens bottom/Men_s_Fall_23_Day_3_SHOT-26_1295_baf7d157-abce-40d8-a6f8-b0b63f3b7766_720x.jpg";
+import BrownWaffle5 from "./mens bottom/KHM060393-106-DETAIL-2_720x.jpg";
+import Denim1 from "./mens bottom/KHM060405-181-FRONT_720x.jpg";
+import Denim2 from "./mens bottom/KHM060405-181-BACK_720x.jpg";
+import Denim3 from "./mens bottom/KHM060405-181-DETAIL-1_720x.jpg";
+import Denim4 from "./mens bottom/KHM060405-181-DETAIL-2_720x.jpg";
+import Denim5 from "./mens bottom/KHM060405-181-DETAIL-3_720x.jpg";
+import GreyNelson1 from "./mens bottom/KHM060386-002-FRONT_720x.jpg";
+import GreyNelson2 from "./mens bottom/KHM060386-002-BACK_720x.jpg";
+import GreyNelson3 from "./mens bottom/KHM060386-002-DETAIL-1_720x.jpg";
+import GreyNelson4 from "./mens bottom/Men_s_Fall_23_Day_3_SHOT-7_0385_720x.jpg";
+import GreyNelson5 from "./mens bottom/KHM060386-002-DETAIL-2_720x.jpg";
+import GreenNelson1 from "./mens bottom/KHM060386-302-FRONT_720x.jpg";
+import GreenNelson2 from "./mens bottom/KHM060386-302-BACK_720x.jpg";
+import GreenNelson3 from "./mens bottom/KHM060386-302-DETAIL-1_720x.jpg";
+import GreenNelson4 from "./mens bottom/KHM060386-302-DETAIL-2_720x.jpg";
+import WhiteAlden1 from "./mens bottom/KHM060390-103-FRONT_720x.jpg";
+import WhiteAlden2 from "./mens bottom/KHM060390-103-BACK_720x.jpg";
+import WhiteAlden3 from "./mens bottom/KHM060390-103-DETAIL-2_720x.jpg";
+import WhiteAlden4 from "./mens bottom/KHM060390-103-DETAIL-1_720x.jpg";
+import WhiteAlden5 from "./mens bottom/KHM060390-103-DETAIL-3_720x.jpg";
+import BrownAlden1 from "./mens bottom/KHM060390-211-FRONT_720x.jpg";
+import BrownAlden2 from "./mens bottom/KHM060390-211-BACK_720x.jpg";
+import BrownAlden3 from "./mens bottom/KHM060390-211-DETAIL-2_720x.jpg";
+import BrownAlden4 from "./mens bottom/KHM060390-211-DETAIL-1_720x.jpg";
+import BrownAlden5 from "./mens bottom/KHM060390-211-DETAIL-3_720x.jpg";
+import Bristol1 from "./mens bottom/KHM060394-302-FRONT_720x.jpg";
+import Bristol2 from "./mens bottom/KHM060394-302-BACK_720x.jpg";
+import Bristol3 from "./mens bottom/KHM060394-302-DETAIL-1_720x.jpg";
+import Bristol4 from "./mens bottom/KHM060394-302-DETAIL-4_720x.jpg";
+import Bristol5 from "./mens bottom/KHM060394-302-DETAIL-2_720x.jpg";
+import BrownMercer1 from "./mens bottom/KHM060499-3014-FRONT_720x.jpg";
+import BrownMercer2 from "./mens bottom/KHM060499-3014-BACK_720x.jpg";
+import BrownMercer3 from "./mens bottom/KHM060499-3014-DETAIL-1_720x.jpg";
+import BrownMercer4 from "./mens bottom/KHM060499-3014-DETAIL-2_720x.jpg";
+import AshMercer1 from "./mens bottom/KHM060499-5002-FRONT_720x.jpg";
+import AshMercer2 from "./mens bottom/KHM060499-5002-BACK_720x.jpg";
+import AshMercer3 from "./mens bottom/KHM060499-5002-DETAIL-1_720x.jpg";
+import AshMercer4 from "./mens bottom/KHM060499-5002-DETAIL-2_720x.jpg";
+import Williams1 from "./mens bottom/KHM060462-002-FRONT_720x.jpg";
+import Williams2 from "./mens bottom/KHM060462-002-BACK_720x.jpg";
+import Williams3 from "./mens bottom/KHM060462-002-DETAIL-2_720x.jpg";
+import Williams4 from "./mens bottom/KHM060462-002-DETAIL-1_720x.jpg";
+import Williams5 from "./mens bottom/KHM060462-002-DETAIL-3_720x.jpg";
+import BlackMercer1 from "./mens bottom/KHM060273-001-FRONT_720x.jpg";
+import BlackMercer2 from "./mens bottom/KHM060273-001-BACK_720x.jpg";
+import BlackMercer3 from "./mens bottom/KHM060273-001-DETAIL-1_720x.jpg";
+import BlackMercer4 from "./mens bottom/2_13_720x.jpg";
+import BlackMercer5 from "./mens bottom/1_59_720x.jpg";
+import Wrinkle1 from "./mens bottom/KHM060395-210-FRONT_720x.jpg";
+import Wrinkle2 from "./mens bottom/KHM060395-210-BACK_720x.jpg";
+import Wrinkle3 from "./mens bottom/KHM060395-210-DETAIL-1_720x.jpg";
+import Wrinkle4 from "./mens bottom/KHM060395-210-DETAIL-2_720x.jpg";
+import Wrinkle5 from "./mens bottom/KHM060395-210-DETAIL-3_720x.jpg";
+import Centre1 from "./mens bottom/KHM060294-415-FRONT_720x.jpg";
+import Centre2 from "./mens bottom/KHM060294-415-BACK_720x.jpg";
+import Centre3 from "./mens bottom/KHM060294-415-DETAIL-2_720x.jpg";
+import Centre4 from "./mens bottom/2_20_720x.jpg";
+import Centre5 from "./mens bottom/1_73_720x.jpg";
 
 
 let mensBottom = [
@@ -305,6 +429,338 @@ let mensBottom = [
       3: BlackChauncey3,
       4: BlackChauncey4,
       5: BlackChauncey5,
+    },
+    category: `Men's Bottom`,
+  },
+  {
+    id: 95,
+    name: "Chenille Chauncey Cargo Pant",
+    price: 1784,
+    image: {
+      1: DarkChauncey1,
+      2: DarkChauncey2,
+      3: DarkChauncey3,
+      4: DarkChauncey4,
+      5: DarkChauncey5,
+    },
+    category: `Men's Bottom`,
+  },
+  {
+    id: 96,
+    name: "Chenille Curtis Short",
+    price: 1546,
+    image: {
+      1: Curtis1,
+      2: Curtis2,
+      3: Curtis3,
+      4: Curtis4,
+      5: Curtis5,
+    },
+    category: `Men's Bottom`,
+  },
+  {
+    id: 97,
+    name: "Mixed Suede Turbo Short",
+    price: 4217,
+    image: {
+      1: Turbo1,
+      2: Turbo2,
+      3: Turbo3,
+      4: Turbo4,
+      5: Turbo5,
+    },
+    category: `Men's Bottom`,
+  },
+  {
+    id: 98,
+    name: "Mixed Suede Turbo Short",
+    price: 4217,
+    image: {
+      1: MilkTurbo1,
+      2: MilkTurbo2,
+      3: MilkTurbo3,
+      4: MilkTurbo4,
+      5: MilkTurbo5,
+    },
+    category: `Men's Bottom`,
+  },
+  {
+    id: 99,
+    name: "Double Weave Elmhurst Pant",
+    price: 2604,
+    image: {
+      1: WhiteElmhurst1,
+      2: WhiteElmhurst2,
+      3: WhiteElmhurst3,
+      4: WhiteElmhurst4,
+      5: WhiteElmhurst5,
+    },
+    category: `Men's Bottom`,
+  },
+  {
+    id: 100,
+    name: "Double Weave Elmhurst Pant",
+    price: 2604,
+    image: {
+      1: BlackElmhurst1,
+      2: BlackElmhurst2,
+      3: BlackElmhurst3,
+      4: BlackElmhurst4,
+    },
+    category: `Men's Bottom`,
+  },
+  {
+    id: 101,
+    name: "Double Weave Mercer PT Track Pant",
+    price: 2602,
+    image: {
+      1: BrownWeave1,
+      2: BrownWeave2,
+      3: BrownWeave3,
+      4: BrownWeave4,
+      5: BrownWeave5,
+    },
+    category: `Men's Bottom`,
+  },
+  {
+    id: 102,
+    name: "Double Weave Barrow Pant",
+    price: 2602,
+    image: {
+      1: GreyWeave1,
+      2: GreyWeave2,
+      3: GreyWeave3,
+      4: GreyWeave4,
+    },
+    category: `Men's Bottom`,
+  },
+  {
+    id: 103,
+    name: "Quilted Interlock Elmhurst Pant",
+    price: 1576,
+    image: {
+      1: Quilted1,
+      2: Quilted2,
+      3: Quilted3,
+      4: Quilted4,
+      5: Quilted5,
+    },
+    category: `Men's Bottom`,
+  },
+  {
+    id: 104,
+    name: "Collins Nylon Short",
+    price: 1205,
+    image: {
+      1: Collins1,
+      2: Collins2,
+      3: Collins3,
+      4: Collins4,
+      5: Collins5,
+    },
+    category: `Men's Bottom`,
+  },
+  {
+    id: 105,
+    name: "Crystal Wash Interlock Mercer 8",
+    price: 1669,
+    image: {
+      1: Wash1,
+      2: Wash2,
+      3: Wash3,
+      4: Wash4,
+      5: Wash5,
+    },
+    category: `Men's Bottom`,
+  },
+  {
+    id: 106,
+    name: "Crystal Wash Interlock Mercer 8",
+    price: 1669,
+    image: {
+      1: GreyWash1,
+      2: GreyWash2,
+      3: GreyWash3,
+      4: GreyWash4,
+      5: GreyWash5,
+    },
+    category: `Men's Bottom`,
+  },
+  {
+    id: 107,
+    name: "Waffle Fairfax Cargo Short",
+    price: 1669,
+    image: {
+      1: Waffle1,
+      2: Waffle2,
+      3: Waffle3,
+      4: Waffle4,
+    },
+    category: `Men's Bottom`,
+  },
+  {
+    id: 108,
+    name: "Waffle Fairfax Cargo Short",
+    price: 1669,
+    image: {
+      1: BrownWaffle1,
+      2: BrownWaffle2,
+      3: BrownWaffle3,
+      4: BrownWaffle4,
+      5: BrownWaffle5,
+    },
+    category: `Men's Bottom`,
+  },
+  {
+    id: 109,
+    name: "Centre Denim Jean",
+    price: 1761,
+    image: {
+      1: Denim1,
+      2: Denim2,
+      3: Denim3,
+      4: Denim4,
+      5: Denim5,
+    },
+    category: `Men's Bottom`,
+  },
+  {
+    id: 110,
+    name: "Nelson Sweatpant",
+    price: 1319,
+    image: {
+      1: GreyNelson1,
+      2: GreyNelson2,
+      3: GreyNelson3,
+      4: GreyNelson4,
+      5: GreyNelson5,
+    },
+    category: `Men's Bottom`,
+  },
+  {
+    id: 111,
+    name: "Nelson Sweatpant",
+    price: 1319,
+    image: {
+      1: GreenNelson1,
+      2: GreenNelson2,
+      3: GreenNelson3,
+      4: GreenNelson4,
+    },
+    category: `Men's Bottom`,
+  },
+  {
+    id: 112,
+    name: "Alden Pocket Short",
+    price: 1205,
+    image: {
+      1: WhiteAlden1,
+      2: WhiteAlden2,
+      3: WhiteAlden3,
+      4: WhiteAlden4,
+      5: WhiteAlden5,
+    },
+    category: `Men's Bottom`,
+  },
+  {
+    id: 113,
+    name: "Alden Pocket Short",
+    price: 1205,
+    image: {
+      1: BrownAlden1,
+      2: BrownAlden2,
+      3: BrownAlden3,
+      4: BrownAlden4,
+      5: BrownAlden5,
+    },
+    category: `Men's Bottom`,
+  },
+  {
+    id: 114,
+    name: "Bristol Cargo Pant",
+    price: 1761,
+    image: {
+      1: Bristol1,
+      2: Bristol2,
+      3: Bristol3,
+      4: Bristol4,
+      5: Bristol5,
+    },
+    category: `Men's Bottom`,
+  },
+  {
+    id: 115,
+    name: "Mercer 8 Sweatpant",
+    price: 1576,
+    image: {
+      1: BrownMercer1,
+      2: BrownMercer2,
+      3: BrownMercer3,
+      4: BrownMercer4,
+    },
+    category: `Men's Bottom`,
+  },
+  {
+    id: 116,
+    name: "Mercer 8 Sweatpant",
+    price: 1576,
+    image: {
+      1: AshMercer1,
+      2: AshMercer2,
+      3: AshMercer3,
+      4: AshMercer4,
+    },
+    category: `Men's Bottom`,
+  },
+  {
+    id: 117,
+    name: "Williams I Sweatpant",
+    price: 1391,
+    image: {
+      1: Williams1,
+      2: Williams2,
+      3: Williams3,
+      4: Williams4,
+      5: Williams5,
+    },
+    category: `Men's Bottom`,
+  },
+  {
+    id: 118,
+    name: "Mercer 8 Sweatpant",
+    price: 1576,
+    image: {
+      1: BlackMercer1,
+      2: BlackMercer2,
+      3: BlackMercer3,
+      4: BlackMercer4,
+      5: BlackMercer5,
+    },
+    category: `Men's Bottom`,
+  },
+  {
+    id: 119,
+    name: "Wrinkle Nylon Fowler Short",
+    price: 1252,
+    image: {
+      1: Wrinkle1,
+      2: Wrinkle2,
+      3: Wrinkle3,
+      4: Wrinkle4,
+      5: Wrinkle5,
+    },
+    category: `Men's Bottom`,
+  },
+  {
+    id: 120,
+    name: "Centre Denim Jean",
+    price: 1761,
+    image: {
+      1: Centre1,
+      2: Centre2,
+      3: Centre3,
+      4: Centre4,
+      5: Centre5,
     },
     category: `Men's Bottom`,
   },
