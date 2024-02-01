@@ -151,7 +151,7 @@ let mensFootwear = [
       4: Classic4,
       5: Classic5,
     },
-    category: `Men's Bottom`,
+    category: `Men's Footwear`,
   },
   {
     id: 122,
@@ -164,7 +164,7 @@ let mensFootwear = [
       4: Clark4,
       5: Clark5,
     },
-    category: `Men's Bottom`,
+    category: `Men's Footwear`,
   },
   {
     id: 123,
@@ -177,7 +177,7 @@ let mensFootwear = [
       4: Balance4,
       5: Balance5,
     },
-    category: `Men's Bottom`,
+    category: `Men's Footwear`,
   },
   {
     id: 124,
@@ -190,7 +190,7 @@ let mensFootwear = [
       4: GreenBlackstock4,
       5: GreenBlackstock5,
     },
-    category: `Men's Bottom`,
+    category: `Men's Footwear`,
   },
   {
     id: 125,
@@ -203,7 +203,7 @@ let mensFootwear = [
       4: YellowBlackstock4,
       5: YellowBlackstock5,
     },
-    category: `Men's Bottom`,
+    category: `Men's Footwear`,
   },
   {
     id: 126,
@@ -216,7 +216,7 @@ let mensFootwear = [
       4: GreyBlackstock4,
       5: GreyBlackstock5,
     },
-    category: `Men's Bottom`,
+    category: `Men's Footwear`,
   },
   {
     id: 127,
@@ -229,7 +229,7 @@ let mensFootwear = [
       4: Converse4,
       5: Converse5,
     },
-    category: `Men's Bottom`,
+    category: `Men's Footwear`,
   },
   {
     id: 128,
@@ -242,7 +242,7 @@ let mensFootwear = [
       4: Superstar4,
       5: Superstar5,
     },
-    category: `Men's Bottom`,
+    category: `Men's Footwear`,
   },
   {
     id: 129,
@@ -255,7 +255,7 @@ let mensFootwear = [
       4: Taylor4,
       5: Taylor5,
     },
-    category: `Men's Bottom`,
+    category: `Men's Footwear`,
   },
   {
     id: 130,
@@ -268,7 +268,7 @@ let mensFootwear = [
       4: Precon4,
       5: Precon5,
     },
-    category: `Men's Bottom`,
+    category: `Men's Footwear`,
   },
   {
     id: 131,
@@ -281,7 +281,7 @@ let mensFootwear = [
       4: Ronnie4,
       5: Ronnie5,
     },
-    category: `Men's Bottom`,
+    category: `Men's Footwear`,
   },
   {
     id: 132,
@@ -294,7 +294,7 @@ let mensFootwear = [
       4: BrownRonnie4,
       5: BrownRonnie5,
     },
-    category: `Men's Bottom`,
+    category: `Men's Footwear`,
   },
   {
     id: 133,
@@ -307,7 +307,7 @@ let mensFootwear = [
       4: GreyRonnie4,
       5: GreyRonnie5,
     },
-    category: `Men's Bottom`,
+    category: `Men's Footwear`,
   },
   {
     id: 134,
@@ -320,7 +320,7 @@ let mensFootwear = [
       4: Maycliffe4,
       5: Maycliffe5,
     },
-    category: `Men's Bottom`,
+    category: `Men's Footwear`,
   },
   {
     id: 135,
@@ -333,7 +333,7 @@ let mensFootwear = [
       4: DarkMaycliffe4,
       5: DarkMaycliffe5,
     },
-    category: `Men's Bottom`,
+    category: `Men's Footwear`,
   },
   {
     id: 136,
@@ -346,7 +346,7 @@ let mensFootwear = [
       4: Rossendale4,
       5: Rossendale5,
     },
-    category: `Men's Bottom`,
+    category: `Men's Footwear`,
   },
   {
     id: 137,
@@ -359,7 +359,7 @@ let mensFootwear = [
       4: Timberland4,
       5: Timberland5,
     },
-    category: `Men's Bottom`,
+    category: `Men's Footwear`,
   },
   {
     id: 138,
@@ -372,7 +372,7 @@ let mensFootwear = [
       4: GreenTimberland4,
       5: GreenTimberland5,
     },
-    category: `Men's Bottom`,
+    category: `Men's Footwear`,
   },
   {
     id: 139,
@@ -385,7 +385,7 @@ let mensFootwear = [
       4: Sandford4,
       5: Sandford5,
     },
-    category: `Men's Bottom`,
+    category: `Men's Footwear`,
   },
   {
     id: 140,
@@ -398,7 +398,7 @@ let mensFootwear = [
       4: Breacon4,
       5: Breacon5,
     },
-    category: `Men's Bottom`,
+    category: `Men's Footwear`,
   },
   {
     id: 141,
@@ -411,7 +411,7 @@ let mensFootwear = [
       4: Chuck4,
       5: Chuck5,
     },
-    category: `Men's Bottom`,
+    category: `Men's Footwear`,
   },
   {
     id: 142,
@@ -424,7 +424,7 @@ let mensFootwear = [
       4: Star4,
       5: Star5,
     },
-    category: `Men's Bottom`,
+    category: `Men's Footwear`,
   },
   {
     id: 143,
@@ -437,7 +437,7 @@ let mensFootwear = [
       4: Sandal4,
       5: Sandal5,
     },
-    category: `Men's Bottom`,
+    category: `Men's Footwear`,
   },
   {
     id: 144,
@@ -450,7 +450,7 @@ let mensFootwear = [
       4: Campus4,
       5: Campus5,
     },
-    category: `Men's Bottom`,
+    category: `Men's Footwear`,
   },
   {
     id: 145,
@@ -463,7 +463,7 @@ let mensFootwear = [
       4: Leather4,
       5: Leather5,
     },
-    category: `Men's Bottom`,
+    category: `Men's Footwear`,
   },
   {
     id: 146,
@@ -476,7 +476,7 @@ let mensFootwear = [
       4: Lined4,
       5: Lined5,
     },
-    category: `Men's Bottom`,
+    category: `Men's Footwear`,
   },
   {
     id: 147,
@@ -489,7 +489,7 @@ let mensFootwear = [
       4: Diemme4,
       5: Diemme5,
     },
-    category: `Men's Bottom`,
+    category: `Men's Footwear`,
   },
   {
     id: 148,
@@ -502,7 +502,7 @@ let mensFootwear = [
       4: Field4,
       5: Field5,
     },
-    category: `Men's Bottom`,
+    category: `Men's Footwear`,
   },
 ];
 
