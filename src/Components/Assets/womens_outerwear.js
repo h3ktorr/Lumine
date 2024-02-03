@@ -109,6 +109,80 @@ import Grayson2 from "./womens outerwear/KHW010135-413-BACK_720x.jpg";
 import Grayson3 from "./womens outerwear/Womens_Fall_23_Ecomm-Day-2_LOOK-40_SHOT-4_0271_720x.jpg";
 import Grayson4 from "./womens outerwear/Womens_Fall_23_Ecomm-Day-2_LOOK-40_SHOT-3_0226_720x.jpg";
 import Grayson5 from "./womens outerwear/Womens_Fall_23_Ecomm-Day-2_LOOK-40_SHOT-1_0059_720x.jpg";
+import Bryn1 from "./womens outerwear/KHW010144-432-FRONT_720x.jpg";
+import Bryn2 from "./womens outerwear/KHW010144-432-BACK_720x.jpg";
+import Bryn3 from "./womens outerwear/KHW010144-432-DETAIL-1_720x.jpg";
+import Bryn4 from "./womens outerwear/Womens_Fall_23_Ecomm_LOOK-32_SHOT-3_5063_720x.jpg";
+import Bryn5 from "./womens outerwear/Womens_Fall_23_Ecomm_LOOK-32_SHOT-1_4973_720x.jpg";
+import Isa1 from "./womens outerwear/KHW030349-001-FRONT_720x.jpg";
+import Isa2 from "./womens outerwear/KHW030349-001-BACK_720x.jpg";
+import Isa3 from "./womens outerwear/KHW030349-001-DETAIL_720x.jpg";
+import Isa4 from "./womens outerwear/Womens_Fall_23_EcommDay2_LOOK66_SHOT2_4480copy_720x.jpg";
+import Isa5 from "./womens outerwear/Womens_Fall_23_EcommDay2_LOOK66_SHOT1_4436copy_720x.jpg";
+import Faris1 from "./womens outerwear/KHW010118-360-FRONT_720x.jpg";
+import Faris2 from "./womens outerwear/KHW010118-360-BACK_720x.jpg";
+import Faris3 from "./womens outerwear/KHW010118-360-DETAIL-1_720x.jpg";
+import Faris4 from "./womens outerwear/KHW010118-360-DETAIL-2_720x.jpg";
+import Faris5 from "./womens outerwear/KHW010118-360-DETAIL-3_720x.jpg";
+import Alva1 from "./womens outerwear/KHW010119-178-FRONT_720x.jpg";
+import Alva2 from "./womens outerwear/KHW010119-178-BACK_720x.jpg";
+import Alva3 from "./womens outerwear/Womens_Fall_23_Ecomm_LOOK-9_SHOT-4_1961_720x.jpg";
+import Alva4 from "./womens outerwear/Womens_Fall_23_Ecomm_LOOK-9_SHOT-3_1952_720x.jpg";
+import Alva5 from "./womens outerwear/Womens_Fall_23_Ecomm_LOOK-9_SHOT-2_1901_720x.jpg";
+import BlackAlva1 from "./womens outerwear/KHW010119-026-FRONT_720x.jpg";
+import BlackAlva2 from "./womens outerwear/Womens_Fall_23_Ecomm_LOOK5_SHOT4_1112copy_720x.jpg";
+import BlackAlva3 from "./womens outerwear/Womens_Fall_23_Ecomm_LOOK5_SHOT3_1041copy_720x.jpg";
+import BlackAlva4 from "./womens outerwear/Womens_Fall_23_Ecomm_LOOK5_SHOT2_0941copy_720x.jpg";
+import BlackAlva5 from "./womens outerwear/Womens_Fall_23_Ecomm_LOOK5_SHOT1_0926copy_720x.jpg";
+import Shae1 from "./womens outerwear/KHW010147-104-FRONT_3e4d5c64-83a3-4f72-b591-b3872a829463_720x.jpg";
+import Shae2 from "./womens outerwear/KHW010147-104-BACK_28dc5dc5-9b0b-41d8-8847-dbff12abb4ed_720x.jpg";
+import Shae3 from "./womens outerwear/KHW010147-104-DETAIL-1_720x.jpg";
+import Shae4 from "./womens outerwear/Womens_Fall_23_Ecomm_LOOK-18_SHOT-2_3142_720x.jpg";
+import Shae5 from "./womens outerwear/Womens_Fall_23_Ecomm_LOOK-18_SHOT-2_3112_720x.jpg";
+import BlackShae1 from "./womens outerwear/KHW010145-027-FRONT_720x.jpg";
+import BlackShae2 from "./womens outerwear/KHW010145-027-BACK_720x.jpg";
+import BlackShae3 from "./womens outerwear/KHW010145-027-DETAIL-1_720x.jpg";
+import BlackShae4 from "./womens outerwear/Womens_Fall_23_EcommDay2_LOOK50_SHOT2_1835copy_e307dffb-518e-40a8-8d47-09b3b0a29bae_720x.jpg";
+import BlackShae5 from "./womens outerwear/Womens_Fall_23_EcommDay2_LOOK50_SHOT1_1765copy_720x.jpg";
+import Kimono1 from "./womens outerwear/KHW010146-174-FRONT_720x.jpg";
+import Kimono2 from "./womens outerwear/KHW010146-174-BACK_720x.jpg";
+import Kimono3 from "./womens outerwear/Womens_Fall_23_EcommDay2_LOOK69_SHOT2_5313copy_720x.jpg";
+import Kimono4 from "./womens outerwear/Womens_Fall_23_EcommDay2_LOOK69_SHOT2_5305copy_720x.jpg";
+import Kimono5 from "./womens outerwear/Womens_Fall_23_EcommDay2_LOOK69_SHOT1_5217copy_720x.jpg";
+import BlueGesa1 from "./womens outerwear/KHW010114-336-FRONT_720x.jpg";
+import BlueGesa2 from "./womens outerwear/KHW010114-336-BACK_720x.jpg";
+import BlueGesa3 from "./womens outerwear/KHW010114-336-DETAIL-3_720x.jpg";
+import BlueGesa4 from "./womens outerwear/Women_s-Summer-Ecom-Day-3_LOOK-92_SHOT-4_24921_720x.jpg";
+import BlueGesa5 from "./womens outerwear/Women_s-Summer-Ecom-Day-3_LOOK-92_SHOT-3_24902_720x.jpg";
+import BrownGesa1 from "./womens outerwear/KHW010162-211-FRONT_810c963f-d96b-44d8-9986-ffab340432fc_720x.jpg";
+import BrownGesa2 from "./womens outerwear/KHW010162-211-BACK_50e8c037-4513-4b09-88a0-e3e0b59c446b_720x.jpg";
+import BrownGesa3 from "./womens outerwear/KHW010162-211-DETAIL-2_720x.jpg";
+import BrownGesa4 from "./womens outerwear/KHW010162-211-DETAIL-1_720x.jpg";
+import BrownGesa5 from "./womens outerwear/Womens_Winter_Ecomm_23_Part1_LOOK-1_SHOT-1_0056_720x.jpg";
+import BrownLennox1 from "./womens outerwear/KHW010177-001-FRONT_720x.jpg";
+import BrownLennox2 from "./womens outerwear/KHW010177-001-BACK_720x.jpg";
+import BrownLennox3 from "./womens outerwear/KHW010177-001-DETAIL-3_720x.jpg";
+import BrownLennox4 from "./womens outerwear/Womens_Winter_Ecomm_23_Part3_LOOK-62_SHOT-1_1837_720x.jpg";
+import BrownLennox5 from "./womens outerwear/KHW010177-001-DETAIL-2_720x.jpg";
+import GreenLennox1 from "./womens outerwear/KHW010179-178-FRONT_f7becc15-8de4-4958-9436-a82b49aef7cf_720x.jpg";
+import GreenLennox2 from "./womens outerwear/KHW010179-178-BACK_720x.jpg";
+import GreenLennox3 from "./womens outerwear/KHW010179-178-DETAIL-3_720x.jpg";
+import GreenLennox4 from "./womens outerwear/Womens_Winter_Ecomm_23_Part3_LOOK-52_SHOT-1_0061_720x.jpg";
+import GreenLennox5 from "./womens outerwear/KHW010179-178-DETAIL-2_720x.jpg";
+import GreenAmani1 from "./womens outerwear/KHW010148-302-FRONT_720x.jpg";
+import GreenAmani2 from "./womens outerwear/KHW010148-302-BACK_720x.jpg";
+import GreenAmani3 from "./womens outerwear/KHW010148-302-DETAIL-4_720x.jpg";
+import GreenAmani4 from "./womens outerwear/KHW010148-302-ecom_636b0aeb-cf1e-4995-860b-1ccdc7a3707d_720x.jpg";
+import GreenAmani5 from "./womens outerwear/KHW010148-302-DETAIL-3_720x.jpg";
+import WhiteAmani1 from "./womens outerwear/KHW010148-302-DETAIL-1_720x.jpg";
+import WhiteAmani2 from "./womens outerwear/KHW010148-302-DETAIL-2_720x.jpg";
+import WhiteAmani3 from "./womens outerwear/KHW010148-302-DETAIL-6_720x.jpg";
+import WhiteAmani4 from "./womens outerwear/KHW010148-302-DETAIL-5_720x.jpg";
+import GreyAmani1 from "./womens outerwear/KHW010135-104-FRONT_720x.jpg";
+import GreyAmani2 from "./womens outerwear/KHW010135-104-BACK_720x.jpg";
+import GreyAmani3 from "./womens outerwear/Womens_Fall_23_EcommDay2_LOOK73_SHOT4_5925copy_720x.jpg";
+import GreyAmani4 from "./womens outerwear/KHW010135-104-DETAIL-1_720x.jpg";
+import GreyAmani5 from "./womens outerwear/Womens_Fall_23_EcommDay2_LOOK73_SHOT3_5910copy_720x.jpg";
 
 
 
@@ -405,6 +479,200 @@ let womensOuterwear = [
       3: Grayson3,
       4: Grayson4,
       5: Grayson5,
+    },
+    category: `Women's Outerwear`,
+  },
+  {
+    id: 218,
+    name: "Bryn Chenille Poppy Vest",
+    price: 1617,
+    image: {
+      1: Bryn1,
+      2: Bryn2,
+      3: Bryn3,
+      4: Bryn4,
+      5: Bryn5,
+    },
+    category: `Women's Outerwear`,
+  },
+  {
+    id: 219,
+    name: "Isa Scrunchy Nylon Puff Vest",
+    price: 1813,
+    image: {
+      1: Isa1,
+      2: Isa2,
+      3: Isa3,
+      4: Isa4,
+      5: Isa5,
+    },
+    category: `Women's Outerwear`,
+  },
+  {
+    id: 220,
+    name: "Faris Nylon Track Jacket",
+    price: 2253,
+    image: {
+      1: Faris1,
+      2: Faris2,
+      3: Faris3,
+      4: Faris4,
+      5: Faris5,
+    },
+    category: `Women's Outerwear`,
+  },
+  {
+    id: 221,
+    name: "Alva Convertible Nylon Track",
+    price: 2400,
+    image: {
+      1: Alva1,
+      2: Alva2,
+      3: Alva3,
+      4: Alva4,
+      5: Alva5,
+    },
+    category: `Women's Outerwear`,
+  },
+  {
+    id: 222,
+    name: "Alva Convertible Nylon Track Jacket",
+    price: 2400,
+    image: {
+      1: BlackAlva1,
+      2: BlackAlva2,
+      3: BlackAlva3,
+      4: BlackAlva4,
+      5: BlackAlva5,
+    },
+    category: `Women's Outerwear`,
+  },
+  {
+    id: 223,
+    name: "Shae Cropped Denim Puffer",
+    price: 3869,
+    image: {
+      1: Shae1,
+      2: Shae2,
+      3: Shae3,
+      4: Shae4,
+      5: Shae5,
+    },
+    category: `Women's Outerwear`,
+  },
+  {
+    id: 224,
+    name: "Shae Cropped Denim Puffer",
+    price: 3869,
+    image: {
+      1: BlackShae1,
+      2: BlackShae2,
+      3: BlackShae3,
+      4: BlackShae4,
+      5: BlackShae5,
+    },
+    category: `Women's Outerwear`,
+  },
+  {
+    id: 225,
+    name: "Nolan Blocked Denim Kimono",
+    price: 4163,
+    image: {
+      1: Kimono1,
+      2: Kimono2,
+      3: Kimono3,
+      4: Kimono4,
+      5: Kimono5,
+    },
+    category: `Women's Outerwear`,
+  },
+  {
+    id: 226,
+    name: "Gesa Monogram Silk Coach Jacket",
+    price: 2155,
+    image: {
+      1: BlueGesa1,
+      2: BlueGesa2,
+      3: BlueGesa3,
+      4: BlueGesa4,
+      5: BlueGesa5,
+    },
+    category: `Women's Outerwear`,
+  },
+  {
+    id: 227,
+    name: "Gesa Monogram Silk Coach Jacket",
+    price: 2155,
+    image: {
+      1: BrownGesa1,
+      2: BrownGesa2,
+      3: BrownGesa3,
+      4: BrownGesa4,
+      5: BrownGesa5,
+    },
+    category: `Women's Outerwear`,
+  },
+  {
+    id: 228,
+    name: "Lennox Panelled Shearling Bomber",
+    price: 1268,
+    image: {
+      1: BrownLennox1,
+      2: BrownLennox2,
+      3: BrownLennox3,
+      4: BrownLennox4,
+      5: BrownLennox5,
+    },
+    category: `Women's Outerwear`,
+  },
+  {
+    id: 229,
+    name: "Lennox Panelled Shearling Bomber",
+    price: 1268,
+    image: {
+      1: GreenLennox1,
+      2: GreenLennox2,
+      3: GreenLennox3,
+      4: GreenLennox4,
+      5: GreenLennox5,
+    },
+    category: `Women's Outerwear`,
+  },
+  {
+    id: 230,
+    name: "Amani Moto Shearling Bomber",
+    price: 2680,
+    image: {
+      1: GreenAmani1,
+      2: GreenAmani2,
+      3: GreenAmani3,
+      4: GreenAmani4,
+      5: GreenAmani5,
+    },
+    category: `Women's Outerwear`,
+  },
+  {
+    id: 231,
+    name: "Amani Moto Shearling Bomber",
+    price: 2680,
+    image: {
+      1: WhiteAmani1,
+      2: WhiteAmani2,
+      3: WhiteAmani3,
+      4: WhiteAmani4,
+    },
+    category: `Women's Outerwear`,
+  },
+  {
+    id: 232,
+    name: "Amani Moto Shearling Bomber",
+    price: 2680,
+    image: {
+      1: GreyAmani1,
+      2: GreyAmani2,
+      3: GreyAmani3,
+      4: GreyAmani4,
+      5: GreyAmani5,
     },
     category: `Women's Outerwear`,
   },
