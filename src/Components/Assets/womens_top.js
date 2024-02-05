@@ -231,7 +231,7 @@ let womensTop = [
       4: BlackAmalia4,
       5: BlackAmalia5,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 234,
@@ -244,7 +244,7 @@ let womensTop = [
       4: WhiteAmalia4,
       5: WhiteAmalia5,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 235,
@@ -257,7 +257,7 @@ let womensTop = [
       4: BlackMulberry4,
       5: BlackMulberry5,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 236,
@@ -269,7 +269,7 @@ let womensTop = [
       3: BlueMulberry3,
       4: BlueMulberry4,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 237,
@@ -281,7 +281,7 @@ let womensTop = [
       3: PinkMulberry3,
       4: PinkMulberry4,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 238,
@@ -293,7 +293,7 @@ let womensTop = [
       3: RedMaddox3,
       4: RedMaddox4,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 238,
@@ -305,7 +305,7 @@ let womensTop = [
       3: BlackMaddox3,
       4: BlackMaddox4,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 239,
@@ -317,7 +317,7 @@ let womensTop = [
       3: Sydney3,
       4: Sydney4,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 240,
@@ -330,7 +330,7 @@ let womensTop = [
       4: Dana4,
       5: Dana5,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 241,
@@ -343,7 +343,7 @@ let womensTop = [
       4: Hunter4,
       5: Hunter5,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 242,
@@ -356,7 +356,7 @@ let womensTop = [
       4: Ora4,
       5: Ora5,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 243,
@@ -368,7 +368,7 @@ let womensTop = [
       3: MilkPresley3,
       4: MilkPresley4,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 244,
@@ -381,7 +381,7 @@ let womensTop = [
       4: BrownPresley4,
       5: BrownPresley5,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 245,
@@ -393,7 +393,7 @@ let womensTop = [
       3: AshBrier3,
       4: AshBrier4,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 246,
@@ -406,7 +406,7 @@ let womensTop = [
       4: WhiteBrier4,
       5: WhiteBrier5,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 247,
@@ -419,7 +419,7 @@ let womensTop = [
       4: MilkRyder4,
       5: MilkRyder5,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 248,
@@ -432,7 +432,7 @@ let womensTop = [
       4: GreenRyder4,
       5: GreenRyder5,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 249,
@@ -445,7 +445,7 @@ let womensTop = [
       4: WhiteHenley4,
       5: WhiteHenley5,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 250,
@@ -457,7 +457,7 @@ let womensTop = [
       3: BlackHenley3,
       4: BlackHenley4,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 251,
@@ -470,7 +470,7 @@ let womensTop = [
       4: BlueQuarter4,
       5: BlueQuarter5,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 252,
@@ -483,7 +483,7 @@ let womensTop = [
       4: AshQuarter4,
       5: AshQuarter5,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 253,
@@ -496,7 +496,7 @@ let womensTop = [
       4: Jane4,
       5: Jane5,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 254,
@@ -509,7 +509,7 @@ let womensTop = [
       4: lightMulberry4,
       5: lightMulberry5,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 255,
@@ -521,7 +521,7 @@ let womensTop = [
       3: AshMulberry3,
       4: AshMulberry4,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 256,
@@ -533,7 +533,7 @@ let womensTop = [
       3: GreenMulberry3,
       4: GreenMulberry4,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 257,
@@ -546,7 +546,7 @@ let womensTop = [
       4: Tanner4,
       5: Tanner5,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 258,
@@ -558,7 +558,7 @@ let womensTop = [
       3: BrownTanner3,
       4: BrownTanner4,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 259,
@@ -571,7 +571,7 @@ let womensTop = [
       4: MilkTanner4,
       5: MilkTanner5,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 260,
@@ -582,7 +582,7 @@ let womensTop = [
       2: BrownTerra2,
       3: BrownTerra3,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 261,
@@ -593,7 +593,7 @@ let womensTop = [
       2: MilkTerra2,
       3: MilkTerra3,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 262,
@@ -604,7 +604,7 @@ let womensTop = [
       2: BlueNadia2,
       3: BlueNadia3,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 263,
@@ -615,7 +615,7 @@ let womensTop = [
       2: BlackNadia2,
       3: BlackNadia3,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 264,
@@ -627,7 +627,7 @@ let womensTop = [
       3: BlueJane3,
       4: BlueJane4,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 265,
@@ -640,7 +640,7 @@ let womensTop = [
       4: BlackEmery4,
       5: BlackEmery5,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 266,
@@ -653,7 +653,7 @@ let womensTop = [
       4: MilkEmery4,
       5: MilkEmery5,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 267,
@@ -665,7 +665,7 @@ let womensTop = [
       3: Lucy3,
       4: Lucy4,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 268,
@@ -676,7 +676,7 @@ let womensTop = [
       2: WhiteLucy2,
       3: WhiteLucy3,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 269,
@@ -688,7 +688,7 @@ let womensTop = [
       3: Sonoma3,
       4: Sonoma4,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 270,
@@ -699,7 +699,7 @@ let womensTop = [
       2: Mott2,
       3: Mott3,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 271,
@@ -711,7 +711,7 @@ let womensTop = [
       3: AshNia3,
       4: AshNia4,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 272,
@@ -723,7 +723,7 @@ let womensTop = [
       3: GreenNia3,
       4: GreenNia4,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 273,
@@ -734,7 +734,7 @@ let womensTop = [
       2: BrownNia2,
       3: BrownNia3,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 274,
@@ -744,7 +744,7 @@ let womensTop = [
       1: Tee1,
       2: Tee2,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 275,
@@ -757,7 +757,7 @@ let womensTop = [
       4: Faille4,
       5: Faille5,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 276,
@@ -770,7 +770,7 @@ let womensTop = [
       4: Studded4,
       5: Studded5,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 277,
@@ -783,7 +783,7 @@ let womensTop = [
       4: Shearling4,
       5: Shearling5,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 278,
@@ -796,7 +796,7 @@ let womensTop = [
       4: Lattice4,
       5: Lattice5,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 279,
@@ -809,7 +809,7 @@ let womensTop = [
       4: Storm4,
       5: Storm5,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 280,
@@ -822,7 +822,7 @@ let womensTop = [
       4: BrownMica4,
       5: BrownMica5,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
   {
     id: 281,
@@ -835,7 +835,7 @@ let womensTop = [
       4: MilkMica4,
       5: MilkMica5,
     },
-    category: `Women's Outerwear`,
+    category: `Women's Top`,
   },
 ];
 
