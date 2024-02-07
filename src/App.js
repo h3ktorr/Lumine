@@ -8,11 +8,12 @@ import womensOuterwear from "./Components/Assets/womens_outerwear";
 import womensTop from "./Components/Assets/womens_top";
 import womensBottom from "./Components/Assets/womens_bottom";
 import womensDress from "./Components/Assets/womens_dress";
+import womensFootwears from "./Components/Assets/womens_footwears";
 
 function App() {
   return (
     <div className="App">
-      {womensDress.map((top) => {
+      {womensFootwears.map((top) => {
         const { id, name, image } = top;
         return (
           <div key={id}>
