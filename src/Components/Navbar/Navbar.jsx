@@ -43,7 +43,7 @@ const Navbar = () => {
         <Link style={{ textDecoration: "none" }} to="./cart">
           <PiShoppingCartSimpleFill className="icon" />
         </Link>
-        <div className="nav-cart-count">0</div>
+        <div className="nav-cart-count">16</div>
       </div>
     </div>
   );
