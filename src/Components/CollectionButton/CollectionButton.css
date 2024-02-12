@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+.collectionbutton{
+ align-self: center;
+}
+
+.collectionbutton button{
+ background-color: #A96161;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  font-family: 'itim';
+  width: 19rem;
+  height: 5rem;
+  cursor: pointer;
+  margin-top: 3.5rem;
+}

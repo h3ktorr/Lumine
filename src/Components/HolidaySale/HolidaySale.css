@@ -1,0 +1,9 @@
+.holidaysale-container{
+ display: flex;
+  background-color: #e8e8e6;
+  width: 100%;
+}
+
+.holidaysale-left img {
+ max-width: 70ch;
+}
