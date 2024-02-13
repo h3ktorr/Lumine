@@ -12,8 +12,8 @@ const HolidaySale = () => {
         <div className="holidaysale-right">
           <h2>
             Holiday Sale <br /> 20% off
+            <button>Shop</button>
           </h2>
-          <button>Shop</button>
         </div>
       </div>
     </div>

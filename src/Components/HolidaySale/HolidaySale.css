@@ -15,12 +15,14 @@
 
 .holidaysale-left img {
   max-width: 70ch;
+  min-height: 100%;
 }
 
 .holidaysale-right{
  position: absolute;
  top: 40%;
  left: 45%;
+ width: 25rem;
 }
 
 .holidaysale-right h2{
@@ -37,4 +39,5 @@
   font-family: 'itim';
   width: 30%;
   cursor: pointer;
+  margin-left: 2rem;
 }

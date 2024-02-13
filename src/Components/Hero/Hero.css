@@ -3,6 +3,7 @@
 
 .hero{
  width: 100%;
+ margin-top: 0;
 }
 
 .hero-container{
@@ -40,4 +41,5 @@
 
 .hero-right img{
  max-width: 70ch;
+ min-height: 100%;
 }

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Jomolhari&display=swap');
+
+.newsletter{
+ width: 100%;
+ min-height: 10rem;
+ background: linear-gradient(180deg, rgba(68, 60, 60, 1) 0%, rgba(102, 56, 56, 1) 43%, rgba(250, 158, 158, 1) 100%);
+ margin-top: 3.5rem;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.newsletter h1{
+ font-family: "Jomolhari";
+ color: #fff;
+}
+
+.newsletter div {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ background: #fff;
+ width: 35rem;
+ min-height: 4.3rem;
+ border-radius: 80px;
+ border: 1px solid #e3e3e3;
+}
+
+.newsletter input {
+ width: 20rem;
+ margin-left: 30px;
+ border: none;
+ outline: none;
+ color: #616161;
+ font-family: "Jomolhari";
+ font-size: 1rem;
+}
+
+.newsletter div button {
+ width: 10rem;
+ height: 4.3rem;
+ border-radius: 80px;
+ background: #000;
+ color: #fff;
+ font-size: 1rem;
+ cursor: pointer;
+ font-family: "Jomolhari";
+}

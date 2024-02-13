@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Irish+Grover&display=swap');
+
+.nowinsale-items {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ gap: 1.12rem;
+}
+
+.nowinsale {
+ width: 100%;
+ overflow: hidden;
+ margin-top: 1rem;
+}
+
+.nowinsale h1 {
+ font-family: "Irish Grover";
+ font-size: 1.5rem;
+}

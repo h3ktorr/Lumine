@@ -1,6 +1,7 @@
 .shop{
  max-width: 80vw;
  margin: auto;
+ margin-top: 0;
  padding-top: 5rem;
  display: flex;
  flex-direction: column;

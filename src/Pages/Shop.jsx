@@ -4,6 +4,8 @@ import './CSS/Shop.css'
 import BestSellers from '../Components/BestSellers/BestSellers';
 import CollectionButton from '../Components/CollectionButton/CollectionButton';
 import HolidaySale from '../Components/HolidaySale/HolidaySale';
+import NowInSale from '../Components/NowInSale/NowInSale';
+import NewsLetter from '../Components/NewsLetter/NewsLetter';
 
 const Shop = () => {
   return (
@@ -12,6 +14,8 @@ const Shop = () => {
       <BestSellers/>
       <CollectionButton />
       <HolidaySale/>
+      <NowInSale/>
+      <NewsLetter/>
     </div>
   )
 }
