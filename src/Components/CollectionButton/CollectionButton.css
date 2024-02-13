@@ -2,6 +2,7 @@
 
 .collectionbutton{
  align-self: center;
+ margin-top: 3.5rem;
 }
 
 .collectionbutton button{
@@ -14,5 +15,4 @@
   width: 19rem;
   height: 5rem;
   cursor: pointer;
-  margin-top: 3.5rem;
 }

@@ -1,14 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
+.hero{
+ width: 100%;
+}
+
 .hero-container{
  display: flex;
  background-color: #e8e8e6;
  width: 100%;
+ position: relative;
 }
 
 .hero-left{
- padding: 7rem 0 7rem 6.4rem;
+ position: relative;
+ top: 15%;
+ left: 15%;
 }
 
 .hero-left h2{

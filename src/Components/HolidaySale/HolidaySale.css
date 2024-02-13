@@ -1,9 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+.holidaysale{
+   margin-top: 4.5rem;
+   width: 100%;
+}
+
 .holidaysale-container{
- display: flex;
-  background-color: #e8e8e6;
-  width: 100%;
+   display: flex;
+   background-color: rgba(204, 203, 208, 1);
+   width: 100%;
+   position: relative;
 }
 
 .holidaysale-left img {
- max-width: 70ch;
+  max-width: 70ch;
+}
+
+.holidaysale-right{
+ position: absolute;
+ top: 40%;
+ left: 45%;
+}
+
+.holidaysale-right h2{
+  font-family: 'Jacques Francois Shadow';
+  font-size: 3rem;
+}
+
+.holidaysale-right button{
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  font-family: 'itim';
+  width: 30%;
+  cursor: pointer;
 }
