@@ -7,10 +7,9 @@
 }
 
 .holidaysale-container{
-   display: flex;
-   background-color: rgba(204, 203, 208, 1);
-   width: 100%;
-   position: relative;
+  display: flex;
+  background: linear-gradient(90deg, rgba(89, 88, 93, 1) 0%, rgba(204, 203, 208, 1) 53%, rgba(89, 88, 93, 1) 59%, rgba(204, 203, 208, 1) 62%, rgba(204, 203, 208, 1) 100%);
+  position: relative;
 }
 
 .holidaysale-left img {

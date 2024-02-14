@@ -15,8 +15,8 @@
 
 .hero-left{
  position: relative;
- top: 15%;
- left: 15%;
+ top: 5rem;
+ left: 12rem;
 }
 
 .hero-left h2{
@@ -33,6 +33,7 @@
  font-family: 'itim';
  width: 30%;
  cursor: pointer;
+ margin-top: 2rem;
 }
 
 .hero-right{

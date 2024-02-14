@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Irish+Grover&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+.footer{
+ display: flex;
+ background-color: #221C1C;
+ color: #fff;
+ margin-top: 4rem;
+ padding: 5rem;
+ width: 100%;
+ font-family: "Itim";
+}
+
+.footer-heading{
+ font-family: "Irish Grover";
+ font-size: 1.6rem;
+}
+
+.footer-shop{
+ /* background-color: aqua; */
+ width: 100%;
+}
+
+.shop-content{
+ list-style: none;
+ font-size: 1.3rem;
+ margin-top: 1rem;
+}
+
+.follow-us{
+ /* background-color: bisque; */
+ width: 100%;
+}
+
+.about-us{
+ /* background-color: blue; */
+ width: 100%;
+ list-style: none;
+ margin-left: 6rem;
+}
+
+.about-content{
+ list-style: none;
+ font-size: 1.3rem;
+ margin-top: 1rem;
+}
+
+.socials{
+ margin-top: 1.5rem;
+}
+
+.footer-icon{
+ width: 3.75rem;
+ height: 1.875rem;
+ color: #fff;
+}

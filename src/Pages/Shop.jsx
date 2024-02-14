@@ -6,6 +6,7 @@ import CollectionButton from '../Components/CollectionButton/CollectionButton';
 import HolidaySale from '../Components/HolidaySale/HolidaySale';
 import NowInSale from '../Components/NowInSale/NowInSale';
 import NewsLetter from '../Components/NewsLetter/NewsLetter';
+import Footer from '../Components/Footer/Footer';
 
 const Shop = () => {
   return (
@@ -16,6 +17,7 @@ const Shop = () => {
       <HolidaySale/>
       <NowInSale/>
       <NewsLetter/>
+      <Footer />
     </div>
   )
 }
