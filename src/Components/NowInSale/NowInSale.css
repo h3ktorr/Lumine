@@ -11,9 +11,23 @@
  width: 100%;
  overflow: hidden;
  margin-top: 3.5rem;
+ display: flex;
+ flex-direction: column;
 }
 
 .nowinsale h1 {
  font-family: "Irish Grover";
  font-size: 1.5rem;
+ cursor: pointer;
+}
+
+.nowinsale button{
+ background-color: #E8E8E6;
+ width: 7rem;
+ min-height: 2rem;
+ border-radius: 10px;
+ align-self: flex-end;
+ font-family: "Itim";
+ font-size: 1rem;
+ color: #000;
 }

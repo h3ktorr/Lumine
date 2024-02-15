@@ -6,10 +6,11 @@
  display: flex;
  background-color: #221C1C;
  color: #fff;
- margin-top: 4rem;
  padding: 5rem;
- width: 100%;
+ max-width: 80vw;
  font-family: "Itim";
+ margin: auto;
+ margin-top: 4rem;
 }
 
 .footer-heading{

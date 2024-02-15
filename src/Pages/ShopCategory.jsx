@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
+import './CSS/ShopCategory.css';
+import { ShopContext } from '../Context/ShopContext';
 
 const ShopCategory = () => {
   return (
-    <div>
+    <div className='shopcategory'>
      
     </div>
   )

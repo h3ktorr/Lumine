@@ -20,6 +20,7 @@ const NowInSale = () => {
           );
         })}
       </div>
+      <button>View more</button>
     </div>
   );
 }

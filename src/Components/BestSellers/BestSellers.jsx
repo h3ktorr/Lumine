@@ -20,6 +20,7 @@ const BestSellers = () => {
         )
       })}
      </div>
+     <button>View more</button>
     </div>
   )
 }

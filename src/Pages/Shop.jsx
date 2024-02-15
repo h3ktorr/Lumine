@@ -17,7 +17,6 @@ const Shop = () => {
       <HolidaySale/>
       <NowInSale/>
       <NewsLetter/>
-      <Footer />
     </div>
   )
 }
