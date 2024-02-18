@@ -1,30 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
-.hero{
+.mensnewarrival {
  width: 100%;
- margin-top: 0;
+ margin-top: 4.5rem;
 }
 
-.hero-container{
+.mensnewarrival-container {
  display: flex;
- background-color: #e8e8e6;
+ background-color: #E6E5EA;
  width: 100%;
  position: relative;
 }
 
-.hero-left{
+.mensnewarrival-left {
  position: absolute;
- top: 5rem;
- left: 12rem;
+ top: 23rem;
+ left: 8rem;
 }
 
-.hero-left h2{
+.mensnewarrival-left h2 {
  font-family: 'Jacques Francois Shadow';
  font-size: 3rem;
 }
 
-.hero-left button{
+.mensnewarrival-left button {
  background-color: #000;
  color: #fff;
  border-radius: 10px;
@@ -36,11 +36,11 @@
  margin-top: 2rem;
 }
 
-.hero-right{
+.mensnewarrival-right {
  margin-left: auto;
 }
 
-.hero-right img{
- max-width: 70ch;
+.mensnewarrival-right img {
+ max-width: 80ch;
  min-height: 100%;
 }

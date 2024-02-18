@@ -1,30 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
-.hero{
+.mensfootwearhero {
+ margin-top: 4.5rem;
  width: 100%;
- margin-top: 0;
 }
 
-.hero-container{
+.mensfootwearhero-container {
  display: flex;
- background-color: #e8e8e6;
- width: 100%;
+ background: linear-gradient(90deg, rgba(215, 215, 215, 1) 0%, rgba(215, 215, 215, 1) 76%, rgba(163, 163, 161, 1) 100%);
  position: relative;
 }
 
-.hero-left{
- position: absolute;
- top: 5rem;
- left: 12rem;
+.mensfootwearhero img {
+ max-width: 90ch;
+ min-height: 100%;
 }
 
-.hero-left h2{
+.mensfootwearhero-right {
+ position: absolute;
+ top: 30rem;
+ left: 35rem;
+ width: 25rem;
+}
+
+.mensfootwearhero-right h2 {
  font-family: 'Jacques Francois Shadow';
  font-size: 3rem;
 }
 
-.hero-left button{
+.mensfootwearhero-right button {
  background-color: #000;
  color: #fff;
  border-radius: 10px;
@@ -33,14 +38,5 @@
  font-family: 'itim';
  width: 30%;
  cursor: pointer;
- margin-top: 2rem;
-}
-
-.hero-right{
- margin-left: auto;
-}
-
-.hero-right img{
- max-width: 70ch;
- min-height: 100%;
+ margin-left: 2rem;
 }
