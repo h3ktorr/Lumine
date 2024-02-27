@@ -37,6 +37,15 @@ const getDefaultCart = () => {
 
 const ShopContextProvider = (props) => {
   const [cartItems, setCartItem] = useState(getDefaultCart());
+  const [isCartOpen, setIsCartOpen] = useState(false);
+
+  const openCart = () => {
+    setIsCartOpen(true);
+  }
+
+  const closeCart = () => {
+    setIsCartOpen(false)
+  }
 
   const addToCart = (itemId) => {
     setCartItem((prev) => ({ ...prev, [itemId]: prev[itemId] + 1 }));
@@ -47,7 +56,7 @@ const ShopContextProvider = (props) => {
     setCartItem((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }));
   };
 
-  const contextValue = {allProducts, cartItems, addToCart, removeFromCart}
+  const contextValue = {allProducts, cartItems, addToCart, removeFromCart, isCartOpen, openCart, closeCart}
   
   return (
     <ShopContext.Provider value={contextValue}>
