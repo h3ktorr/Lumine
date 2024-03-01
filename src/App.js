@@ -8,12 +8,14 @@ import LoginSignup from './Pages/LoginSignup';
 import Footer from "./Components/Footer/Footer";
 import Men from "./Pages/Men";
 import Women from "./Pages/Women";
+import Cart from "./Components/Cart/Cart";
 
 function App() {
   return (
     <div>
       <BrowserRouter>
         <Navbar />
+        <Cart /> 
         <Routes>
           <Route path="/" element={<Shop />} />
           <Route path="/mens" element={<Men />} />

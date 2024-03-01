@@ -37,7 +37,7 @@ const getDefaultCart = () => {
 
 const ShopContextProvider = (props) => {
   const [cartItems, setCartItem] = useState(getDefaultCart());
-  const [isCartOpen, setIsCartOpen] = useState(false);
+  const [isCartOpen, setIsCartOpen] = useState(true);
 
   const openCart = () => {
     setIsCartOpen(true);
