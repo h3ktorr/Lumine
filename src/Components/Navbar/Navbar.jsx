@@ -1,13 +1,15 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import "./Navbar.css";
 import logo from "../Assets/logo.png";
 import { PiShoppingCartSimpleFill } from "react-icons/pi";
 import { IoPersonOutline } from "react-icons/io5";
 import { IoSearch } from "react-icons/io5";
 import { Link } from "react-router-dom";
+import { ShopContext } from "../../Context/ShopContext";
 
 const Navbar = () => {
   const [menu, setMenu] = useState("shop");
+  const {openCart} = useContext(ShopContext);
   return (
     <div className="navbar">
       <div className="nav-logo" onClick={() => setMenu("shop")}>
@@ -40,9 +42,10 @@ const Navbar = () => {
         <Link style={{ textDecoration: "none" }} to="./login">
           <IoPersonOutline className="icon" />
         </Link>
-        <Link style={{ textDecoration: "none" }} to="./cart">
-          <PiShoppingCartSimpleFill className="icon" />
-        </Link>
+          <PiShoppingCartSimpleFill
+            className="icon"
+            onClick={() => openCart()}
+          />
         <div className="nav-cart-count">16</div>
       </div>
     </div>

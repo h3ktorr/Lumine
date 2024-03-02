@@ -12,7 +12,7 @@ import Cart from "./Components/Cart/Cart";
 
 function App() {
   return (
-    <div>
+    <div >
       <BrowserRouter>
         <Navbar />
         <Cart /> 

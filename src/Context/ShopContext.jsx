@@ -32,6 +32,8 @@ const getDefaultCart = () => {
   for (let index = 0; index < allProducts.length + 1; index++) {
     cart[index] = 0;
   }
+  cart[2] = 2;
+  cart[3] = 1;
   return cart;
 };
 
