@@ -11,6 +11,8 @@ const Product = () => {
   const {allProducts} = useContext(ShopContext)
   const {productId} = useParams()
   const product = allProducts.find((item) => item.id === Number(productId));
+  let amount = 3;
+  let title = 'Recommended for you'
   return (
     <div className='product'>
      <ProductDisplay product={product}/>

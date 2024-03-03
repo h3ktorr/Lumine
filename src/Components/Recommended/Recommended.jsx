@@ -8,7 +8,7 @@ const Recommended = (props) => {
  const {product} = props;
  const recommendedItems = allProducts.filter((item)=>item.category.toLowerCase()===product.category.toLowerCase());
  // 
- function randomRecommends(arr) {
+ function randomRecommends() {
    let recommends = recommendedItems.slice();
    const randomElements = [];
    for (let i = 0; i < 3; i++) {
