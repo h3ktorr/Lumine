@@ -3,12 +3,18 @@ import { ShopContext } from "../../Context/ShopContext";
 import { IoClose } from "react-icons/io5";
 import CartItems from "../CartItems/CartItems";
 import "./Cart.css";
-import Recommended from "../Recommended/Recommended";
 import CartShopMore from "../CartShopMore/CartShopMore";
+import { FaPaypal, FaCcVisa, FaBitcoinSign } from "react-icons/fa6";
+
 
 const Cart = () => {
-  const { isCartOpen, closeCart, allProducts, cartItems } =
-    useContext(ShopContext);
+  const {
+    isCartOpen,
+    closeCart,
+    allProducts,
+    getTotalCartItems,
+    getTotalCartAmount,
+  } = useContext(ShopContext);
 
   if (isCartOpen) {
     document.body.style.overflow = "hidden";
@@ -46,7 +52,7 @@ const Cart = () => {
           <div className="summaryinfo">
             <div className="summary-subtotal">
               <p>Subtotal</p>
-              <p>$7000</p>
+              <p>${getTotalCartAmount()}</p>
             </div>
             <div className="summary-shipping">
               <p>Shipping</p>
@@ -54,7 +60,7 @@ const Cart = () => {
             </div>
             <div className="summary-total">
               <p>Total</p>
-              <p>$10000</p>
+              <p>${getTotalCartAmount()}</p>
             </div>
           </div>
           <button>Checkout</button>
@@ -76,12 +82,15 @@ const Cart = () => {
           </div>
           <button>View more</button>
         </div>
-        <div className="cart-icons"></div>
+        <div className="cart-icons">
+          <FaCcVisa />
+          <FaPaypal />
+        </div>
       </div>
       <div className="cart-fixedcheckout">
         <div className="fixedleft">
-          <p className="fixedleft-header">My Cart(3)</p>
-          <p className="fixedleft-price">$7000</p>
+          <p className="fixedleft-header">My Cart({getTotalCartItems()})</p>
+          <p className="fixedleft-price">${getTotalCartAmount()}</p>
         </div>
         <div className="fixedright">
           <button>Checkout</button>

@@ -9,7 +9,7 @@ import { ShopContext } from "../../Context/ShopContext";
 
 const Navbar = () => {
   const [menu, setMenu] = useState("shop");
-  const {openCart} = useContext(ShopContext);
+  const { openCart, getTotalCartItems } = useContext(ShopContext);
   return (
     <div className="navbar">
       <div className="nav-logo" onClick={() => setMenu("shop")}>
@@ -46,7 +46,7 @@ const Navbar = () => {
             className="icon"
             onClick={() => openCart()}
           />
-        <div className="nav-cart-count">16</div>
+        <div className="nav-cart-count">{getTotalCartItems()}</div>
       </div>
     </div>
   );
