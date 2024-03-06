@@ -1,11 +1,13 @@
 import React, { useContext } from 'react';
 import "./ProductDisplay.css";
 import { ShopContext } from '../../Context/ShopContext';
+import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 
 
 const ProductDisplay = (props) => {
  const {product} = props;
- const {addToCart} = useContext(ShopContext)
+ const {addToCart} = useContext(ShopContext);
+ const [index, setIndex] = useState(0);
   return (
     <div className="productdisplay">
       <div className="productdisplay-left">

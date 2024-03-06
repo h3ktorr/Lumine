@@ -4,12 +4,8 @@ import { ShopContext } from "../../Context/ShopContext";
 import { FaMinus, FaPlus, FaRegTrashCan } from "react-icons/fa6";
 
 const CartItems = () => {
-  const {
-    allProducts,
-    cartItems,
-    removeFromCart,
-    addToCart,
-  } = useContext(ShopContext);
+  const { allProducts, cartItems, removeFromCart, addToCart, deleteCartItem } =
+    useContext(ShopContext);
   return (
     <div className="cartitems">
       {allProducts.map((e) => {
@@ -30,7 +26,7 @@ const CartItems = () => {
               </div>
               <div className="cartitems-right">
                 <p className="cartitem-price">${e.price * cartItems[e.id]}</p>
-                <FaRegTrashCan onClick={() => removeFromCart(e.id)} />
+                <FaRegTrashCan onClick={() => deleteCartItem(e.id)} />
               </div>
             </div>
           );

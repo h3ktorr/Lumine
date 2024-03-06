@@ -37,7 +37,7 @@ const getDefaultCart = () => {
 
 const ShopContextProvider = (props) => {
   const [cartItems, setCartItem] = useState(getDefaultCart());
-  const [isCartOpen, setIsCartOpen] = useState(true);
+  const [isCartOpen, setIsCartOpen] = useState(false);
 
   const openCart = () => {
     setIsCartOpen(true);
@@ -55,6 +55,10 @@ const ShopContextProvider = (props) => {
   
   const removeFromCart = (itemId) => {
     setCartItem((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }));
+  };
+
+  const deleteCartItem = (itemId) => {
+    setCartItem((prev) => ({ ...prev, [itemId]: prev[itemId] * 0 }));
   };
   
   const getTotalCartAmount = () => {
@@ -90,6 +94,7 @@ const ShopContextProvider = (props) => {
     closeCart,
     getTotalCartItems,
     getTotalCartAmount,
+    deleteCartItem,
   };
   
   return (

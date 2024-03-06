@@ -10,6 +10,10 @@ import { ShopContext } from "../../Context/ShopContext";
 const Navbar = () => {
   const [menu, setMenu] = useState("shop");
   const { openCart, getTotalCartItems } = useContext(ShopContext);
+  let cartIconAmount = getTotalCartItems();
+  if(cartIconAmount === 0){
+    cartIconAmount = ''
+  }
   return (
     <div className="navbar">
       <div className="nav-logo" onClick={() => setMenu("shop")}>
@@ -46,7 +50,7 @@ const Navbar = () => {
             className="icon"
             onClick={() => openCart()}
           />
-        <div className="nav-cart-count">{getTotalCartItems()}</div>
+        <div className="nav-cart-count">{cartIconAmount}</div>
       </div>
     </div>
   );
