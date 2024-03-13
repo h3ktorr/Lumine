@@ -1,40 +1,54 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import "./ProductDisplay.css";
 import { ShopContext } from '../../Context/ShopContext';
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
-
+ 
 
 const ProductDisplay = (props) => {
  const {product} = props; 
  const {addToCart} = useContext(ShopContext);
- const dynamicImage = Object.keys(product.image).map((key) => product.image[key]).map(item => item.replace("/static/media/", ""));
  const [productImage, setProductImage] = useState(product.image)
  const [index, setIndex] = useState(0);
- console.log(productImage);
-//  const getImage = () => {
-//   Object.values(product.image).map((item, itemIndex) => {
-//     let position = 'nextSlide';
-//      const dynamicImagePath = item.replace("/static/media/", "");
-//     console.log(dynamicImagePath)
-//     if(itemIndex === index){
-//       position = 'activeSlide';
-//     }
-//     if(itemIndex === index - 1 || (index === 0 && itemIndex === product.image.length - 1)){
-//       position = 'lastSlide';
-//     }
-    
-//   })
-//  }
+ const nextSlide = () => {
+   setIndex((oldIndex) => {
+     let index = oldIndex + 1;
+     if (index > product.image.length - 1) {
+       index = 0;
+     }
+     return index;
+   });
+ };
+ const prevSlide = () => {
+   setIndex((oldIndex) => {
+     let index = oldIndex - 1;
+     if (index < 0) {
+       index = product.image.length - 1;
+     }
+     return index;
+   });
+ };
+
+ useEffect(()=>{
+  setIndex(0)
+ }, [])
+
   return (
     <div className="productdisplay">
       <div className="productdisplay-left">
-        {productImage.map((image, imageIndex) => {
-          return <img src={image} alt="" key={imageIndex} />
+        {product.image.map((image, imageIndex) => {
+          let position = 'nextSlide'
+          if(imageIndex === index){
+            position = 'activeSlide'
+          }
+          if(imageIndex === index - 1 || (index === 0 && imageIndex === product.image.length - 1)){
+            position = 'lastSlide'
+          }
+          return <img src={image} alt="" key={imageIndex} className={position} />
         })}
-        <button className="prev" onClick={() => setIndex(index - 1)}>
+        <button className="prev" onClick={prevSlide}>
           <FiChevronLeft />
         </button>
-        <button className="next" onClick={() => setIndex(index + 1)}>
+        <button className="next" onClick={nextSlide}>
           <FiChevronRight />
         </button>
       </div>
