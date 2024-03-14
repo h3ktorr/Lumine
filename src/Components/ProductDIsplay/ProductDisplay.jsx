@@ -30,7 +30,22 @@ const ProductDisplay = (props) => {
 
  useEffect(()=>{
   setIndex(0)
- }, [])
+ }, [product.image])
+
+ useEffect(() => {
+    let slider = setInterval(() => {
+      setIndex((oldIndex) => {
+        let index = oldIndex + 1
+        if (index > product.image.length - 1) {
+          index = 0
+        }
+        return index
+      })
+    }, 5000)
+    return () => {
+      clearInterval(slider)
+    }
+  }, [index])
 
   return (
     <div className="productdisplay">
