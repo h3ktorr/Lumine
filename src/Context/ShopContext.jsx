@@ -34,10 +34,23 @@ const getDefaultCart = () => {
   }
   return cart;
 };
+const getDefaultSizes = () => {
+  let sizes = {};
+  for (let index = 0; index < allProducts.length + 1; index++) {
+    sizes[index] = '';
+  }
+  return sizes;
+};
 
 const ShopContextProvider = (props) => {
   const [cartItems, setCartItem] = useState(getDefaultCart());
+  const [cartSizes, setCartSizes] = useState(getDefaultSizes())
   const [isCartOpen, setIsCartOpen] = useState(false);
+  // const [size, setSize] = useState("");
+
+  const chooseSize = (itemId, itemSize) => {
+    setCartSizes((prev) => ({...prev, [itemId]: itemSize}));
+  }
 
   const openCart = () => {
     setIsCartOpen(true);
@@ -95,6 +108,8 @@ const ShopContextProvider = (props) => {
     getTotalCartItems,
     getTotalCartAmount,
     deleteCartItem,
+    cartSizes,
+    chooseSize
   };
   
   return (

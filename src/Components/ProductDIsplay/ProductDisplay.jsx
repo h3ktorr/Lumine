@@ -6,9 +6,19 @@ import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 
 const ProductDisplay = (props) => {
  const {product} = props; 
- const {addToCart} = useContext(ShopContext);
- const [productImage, setProductImage] = useState(product.image)
+ const { addToCart, chooseSize } = useContext(ShopContext);
+//  const [productImage, setProductImage] = useState(product.image)
  const [index, setIndex] = useState(0);
+ const [selectedSize, setSelectedSize] = useState(null)
+ const [sizeSelected, setSizeSelected] = useState(false)
+ const sizes = ["XXL", "XL", "L", "M", "S", "XS", "XXS"];
+
+ const handleSizeChange = (sizeId, sizeName) => {
+  chooseSize(sizeId, sizeName);
+  setSelectedSize(sizeName);
+  setSizeSelected(true)
+ }
+
  const nextSlide = () => {
    setIndex((oldIndex) => {
      let index = oldIndex + 1;
@@ -29,7 +39,9 @@ const ProductDisplay = (props) => {
  };
 
  useEffect(()=>{
-  setIndex(0)
+  setIndex(0);
+  setSizeSelected(false);
+  setSelectedSize(null);
  }, [product.image])
 
  useEffect(() => {
@@ -51,14 +63,19 @@ const ProductDisplay = (props) => {
     <div className="productdisplay">
       <div className="productdisplay-left">
         {product.image.map((image, imageIndex) => {
-          let position = 'nextSlide'
-          if(imageIndex === index){
-            position = 'activeSlide'
+          let position = "nextSlide";
+          if (imageIndex === index) {
+            position = "activeSlide";
           }
-          if(imageIndex === index - 1 || (index === 0 && imageIndex === product.image.length - 1)){
-            position = 'lastSlide'
+          if (
+            imageIndex === index - 1 ||
+            (index === 0 && imageIndex === product.image.length - 1)
+          ) {
+            position = "lastSlide";
           }
-          return <img src={image} alt="" key={imageIndex} className={position} />
+          return (
+            <img src={image} alt="" key={imageIndex} className={position} />
+          );
         })}
         <button className="prev" onClick={prevSlide}>
           <FiChevronLeft />
@@ -76,13 +93,19 @@ const ProductDisplay = (props) => {
         <div className="productdisplay-size">
           <p>Select Size</p>
           <div className="productdisplay-sizes">
-            <div>XXL</div>
-            <div>XL</div>
-            <div>L</div>
-            <div>M</div>
-            <div>S</div>
-            <div>XS</div>
-            <div>XXS</div>
+            {sizes.map((size, sizeIndex) => (
+              <div
+                key={sizeIndex}
+                onClick={() => handleSizeChange(product.id, size)}
+                style={{
+                  color: selectedSize === size ? "white" : "black",
+                  backgroundColor:
+                    selectedSize === size ? "black" : "transparent",
+                }}
+              >
+                {size}
+              </div>
+            ))}
           </div>
         </div>
         <button
@@ -90,7 +113,7 @@ const ProductDisplay = (props) => {
             addToCart(product.id);
           }}
         >
-          Add to Cart
+          {sizeSelected ? "Add To Cart" : "Select A Size"}
         </button>
       </div>
     </div>
