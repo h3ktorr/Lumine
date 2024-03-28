@@ -6,7 +6,7 @@ import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 
 const ProductDisplay = (props) => {
  const {product} = props; 
- const { addToCart, chooseSize } = useContext(ShopContext);
+ const { addToCart, chooseSize, openCart } = useContext(ShopContext);
 //  const [productImage, setProductImage] = useState(product.image)
  const [index, setIndex] = useState(0);
  const [selectedSize, setSelectedSize] = useState(null)
@@ -17,6 +17,13 @@ const ProductDisplay = (props) => {
   chooseSize(sizeId, sizeName);
   setSelectedSize(sizeName);
   setSizeSelected(true)
+ }
+
+ const handleAddToCart = () => {
+  if(sizeSelected){
+    addToCart(product.id);
+    openCart()
+  }
  }
 
  const nextSlide = () => {
@@ -97,11 +104,14 @@ const ProductDisplay = (props) => {
               <div
                 key={sizeIndex}
                 onClick={() => handleSizeChange(product.id, size)}
-                style={{
-                  color: selectedSize === size ? "white" : "black",
-                  backgroundColor:
-                    selectedSize === size ? "black" : "transparent",
-                }}
+                style={
+                  selectedSize === size
+                    ? {
+                        color: "white",
+                        backgroundColor: "black",
+                      }
+                    : {}
+                }
               >
                 {size}
               </div>
@@ -109,9 +119,8 @@ const ProductDisplay = (props) => {
           </div>
         </div>
         <button
-          onClick={() => {
-            addToCart(product.id);
-          }}
+          onClick={handleAddToCart}
+          id={sizeSelected ? 'addcartbtn' : ''}
         >
           {sizeSelected ? "Add To Cart" : "Select A Size"}
         </button>

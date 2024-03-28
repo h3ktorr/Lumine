@@ -74,15 +74,24 @@
 }
 
 .productdisplay-right button{
- background-color: #000;
+  background-color: #696565;
   color: #fff;
   border-radius: 10px;
   font-size: 1.25rem;
   padding: 0.5rem;
   font-family: 'itim';
-  cursor: pointer;
   margin-top: 1rem;
   width: 100%;
+  transition: all .5s;
+}
+
+#addcartbtn{
+  background-color: #000;
+}
+
+#addcartbtn:hover{
+  cursor: pointer;
+  background-color: #9c7474;
 }
 
 .productdisplay-size{

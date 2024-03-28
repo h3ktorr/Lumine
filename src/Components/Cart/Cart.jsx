@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { ShopContext } from "../../Context/ShopContext";
 import { IoClose } from "react-icons/io5";
 import CartItems from "../CartItems/CartItems";
@@ -16,11 +16,27 @@ const Cart = () => {
     getTotalCartAmount,
   } = useContext(ShopContext);
 
-  if (isCartOpen) {
-    document.body.style.overflow = "hidden";
-  } else {
-    document.body.style.overflow = "auto";
-  }
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      const cartContainer = document.querySelector(".cart-container");
+      if (isCartOpen && !cartContainer.contains(event.target)) {
+        closeCart();
+      }
+    };
+
+    if (isCartOpen) {
+      document.body.style.overflow = "hidden";
+      // document.addEventListener("click", handleClickOutside);
+    } else {
+      document.body.style.overflow = "auto";
+      // document.removeEventListener("click", handleClickOutside);
+    }
+
+    // return () => {
+    //   document.removeEventListener("click", handleClickOutside);
+    // };
+  },[isCartOpen, closeCart]);  
+    
 
   let random = Math.floor(Math.random() * 420) + 1;
   let product = allProducts[random];
