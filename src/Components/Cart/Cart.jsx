@@ -4,7 +4,7 @@ import { IoClose } from "react-icons/io5";
 import CartItems from "../CartItems/CartItems";
 import "./Cart.css";
 import CartShopMore from "../CartShopMore/CartShopMore";
-import { FaPaypal, FaCcVisa, FaBitcoinSign } from "react-icons/fa6";
+import { FaPaypal, FaCcVisa } from "react-icons/fa6";
 
 
 const Cart = () => {
@@ -35,7 +35,7 @@ const Cart = () => {
     // return () => {
     //   document.removeEventListener("click", handleClickOutside);
     // };
-  },[isCartOpen, closeCart]);  
+  },[isCartOpen]);  
     
 
   let random = Math.floor(Math.random() * 420) + 1;
