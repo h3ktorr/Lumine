@@ -10,12 +10,13 @@ const MensOuterwear = () => {
       <h1>Mens OuterWear</h1>
       <div className="mensaccessories-items">
         {outerwear.map((item) => {
+          const images = [...item.image];
           return (
             <Item
               key={item.id}
               id={item.id}
               name={item.name}
-              image={item.image[0]}
+              image={images}
               price={item.price}
             />
           );

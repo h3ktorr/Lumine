@@ -35,6 +35,7 @@ const ProductDisplay = (props) => {
      return index;
    });
  };
+ 
  const prevSlide = () => {
    setIndex((oldIndex) => {
      let index = oldIndex - 1;

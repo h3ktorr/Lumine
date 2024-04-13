@@ -10,12 +10,13 @@ const WomensTop = () => {
       <h1>Womens Top</h1>
       <div className="womenstop-items">
         {top.map((item) => {
+          const images = [...item.image];
           return (
             <Item
               key={item.id}
               id={item.id}
               name={item.name}
-              image={item.image[0]}
+              image={images}
               price={item.price}
             />
           );

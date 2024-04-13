@@ -71,4 +71,10 @@
   width: 2.3rem;
   text-align: center;
   border: .1rem solid #000;
+  transition: all .3s;
+}
+
+.hoverSizes div:hover{
+  background-color: #fff;
+  cursor: pointer;
 }

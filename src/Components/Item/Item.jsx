@@ -1,24 +1,55 @@
-import React, { useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import "./Item.css";
 import { Link } from "react-router-dom";
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
+import { ShopContext } from "../../Context/ShopContext";
 
 const Item = (props) => {
   const [isHovered, setIsHovered] = useState(false);
   const [selectedSize, setSelectedSize] = useState(null);
   const sizes = ["XXL", "XL", "L", "M", "S", "XS", "XXS"];
+  const { addToCart, chooseSize, openCart } = useContext(ShopContext);
+  const [index, setIndex] = useState(0);
+  const { id, image, price, name } = props;
 
-    const handleMouseEnter = () => {
-      setIsHovered(true);
-    };
+  const imageData = image[0]
+  console.log(imageData)
 
-    const handleMouseLeave = () => {
-      setIsHovered(false);
-    };
+  const handleSizeChange = (sizeId, sizeName) => {
+    chooseSize(sizeId, sizeName);
+    setSelectedSize(sizeName);
+    addToCart(sizeId);
+    openCart();
+  };
 
-  const nextSlide = () => {};
-  const prevSlide = () => {};
-  const handleSizeChange = () => {};
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
+
+  const nextSlide = () => {
+    setIndex((oldIndex) => {
+      let index = oldIndex + 1;
+      if (index > image.length - 1) {
+        index = 0;
+      }
+      return index;
+    });
+  };
+
+  const prevSlide = () => {
+    setIndex((oldIndex) => {
+      let index = oldIndex - 1;
+      if (index < 0) {
+        index = image.length - 1;
+      }
+      return index;
+    });
+  };
+
   return (
     <div className="item">
       <div
@@ -45,7 +76,7 @@ const Item = (props) => {
             {sizes.map((size, sizeIndex) => (
               <div
                 key={sizeIndex}
-                onClick={() => handleSizeChange(size)}
+                onClick={() => handleSizeChange(props.id, size)}
                 style={
                   selectedSize === size
                     ? {
@@ -61,9 +92,9 @@ const Item = (props) => {
           </div>
         </div>
         <div className="imageContainer">
-          <Link to={`/product/${props.id}`}>
+          <Link to={`/product/${id}`}>
             <img
-              src={props.image}
+              src={image[index]}
               alt="item-image"
               // onClick={window.scrollTo(0, 0)}
               className="item-image"
@@ -71,9 +102,9 @@ const Item = (props) => {
           </Link>
         </div>
       </div>
-      <p>{props.name}</p>
+      <p>{name}</p>
       <p>
-        <strong>${props.price}</strong>
+        <strong>${price}</strong>
       </p>
     </div>
   );
