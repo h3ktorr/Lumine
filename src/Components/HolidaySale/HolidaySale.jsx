@@ -1,5 +1,5 @@
 import React from 'react'
-import holidaySaleImg from "../Assets/mens bottom/SHOT9_0434_720x.jpg";
+import holidaySaleImg from "../Assets/mens_bottom/SHOT9_0434_720x.jpg";
 import "./HolidaySale.css"
 
 const HolidaySale = () => {

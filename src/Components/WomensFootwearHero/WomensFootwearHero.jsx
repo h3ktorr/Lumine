@@ -1,6 +1,6 @@
 import React from 'react';
 import "./WomensFootwearHero.css";
-import womensFootwearHeroImg from "../Assets/womens footwears/AT232WS502V015014TheAtticoLuzMule105mmTurquoiseSatin_1724_720x.jpg";
+import womensFootwearHeroImg from "../Assets/womens_footwears/AT232WS502V015014TheAtticoLuzMule105mmTurquoiseSatin_1724_720x.jpg";
 
 
 const WomensFootwearHero = () => {

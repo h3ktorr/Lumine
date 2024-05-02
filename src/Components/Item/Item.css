@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
 .item{
- width: 22rem;
+ width: 20rem;
  font-family: 'Itim';
  overflow: hidden;
 }
 
 .item-image{
-  width: 22rem;
+  width: 20rem;
 }
 
 .item p{
@@ -23,7 +23,7 @@
 .hoverButtons{
   position: absolute;
   display: flex;
-  top: 10rem;
+  top: 9rem;
 }
 
 .hoverPrev {
@@ -46,14 +46,14 @@
 
 .showNext{
   /* right: auto; */
-  left: 19.7rem;
+  left: 17.7rem;
 }
 
 .hoverSizes{
   transition: all .5s;
   position: absolute;
   display: flex;
-  top: 20rem;
+  top: 18rem;
   left: -100%;
   width: 100%;
   justify-content: space-evenly;

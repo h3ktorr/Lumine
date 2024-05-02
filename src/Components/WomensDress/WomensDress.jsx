@@ -1,7 +1,7 @@
 import React from 'react';
 import './WomensDress.css';
 import Item from '../Item/Item';
-import womensDress from '../Assets/womens_dress';
+import womensDress from '../Assets/womens_dress.js';
 
 const WomensDress = () => {
   let dress = womensDress.slice(0, 6);

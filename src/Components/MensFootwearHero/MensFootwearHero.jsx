@@ -1,6 +1,6 @@
 import React from 'react';
 import "./MensFootwearHero.css";
-import mensFootwearHeroImg from "../Assets/mens footwear/TB0A6DSWEN1-Kith-x-Timberland-Field-Boot-Leather-Wheat_0529_720x.jpg";
+import mensFootwearHeroImg from "../Assets/mens_footwear/TB0A6DSWEN1-Kith-x-Timberland-Field-Boot-Leather-Wheat_0529_720x.jpg";
 
 const MensFootwearHero = () => {
   return (

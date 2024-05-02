@@ -1,6 +1,6 @@
 import React from "react";
 import "./WomensNewArrival.css";
-import womensnewarrival_image from "../Assets/womens outerwear/Womens_Fall_23_Ecomm_LOOK-32_SHOT-1_4973_720x.jpg";
+import womensnewarrival_image from "../Assets/womens_outerwear/Womens_Fall_23_Ecomm_LOOK-32_SHOT-1_4973_720x.jpg";
 
 const WomensNewArrival = () => {
   return (

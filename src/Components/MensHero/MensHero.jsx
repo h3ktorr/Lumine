@@ -1,6 +1,6 @@
 import React from 'react';
 import './MensHero.css' 
-import menshero_image from "../Assets/mens outerwears/KHM010292-001-FRONT_720x.jpg";
+import menshero_image from "../Assets/mens_outerwears/KHM010292-001-FRONT_720x.jpg";
 
 const MensHero = () => {
   return (

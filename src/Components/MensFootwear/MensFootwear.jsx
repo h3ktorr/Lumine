@@ -1,7 +1,7 @@
 import React from 'react';
 import './MensFootwear.css';
 import Item from '../Item/Item';
-import mensFootwear from '../Assets/mens_footwear'
+import mensFootwear from '../Assets/mens_footwear.js'
 
 
 const MensFootwear = () => {

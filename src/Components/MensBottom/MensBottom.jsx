@@ -1,6 +1,6 @@
 import React from 'react';
 import './MensBottom.css';
-import mensBottom from '../Assets/mens_bottom';
+import mensBottom from '../Assets/mens_bottom.js';
 import Item from '../Item/Item';
 
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import "./MensAccessories.css";
-import mensAccessories from '../Assets/mens_accessories';
+import mensAccessories from '../Assets/mens_accessories.js';
 import Item from '../Item/Item';
 
 const MensAccessories = () => {

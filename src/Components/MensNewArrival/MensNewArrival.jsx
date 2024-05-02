@@ -1,6 +1,6 @@
 import React from 'react';
 import "./MensNewArrival.css";
-import mensnewarrival_image from "../Assets/mens outerwears/SHOT62_3637_720x.jpg";
+import mensnewarrival_image from "../Assets/mens_outerwears/SHOT62_3637_720x.jpg";
 
 
 const MensNewArrival = () => {
