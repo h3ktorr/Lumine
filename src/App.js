@@ -47,7 +47,7 @@ function App() {
             <Route path=":productId" element={<Product />} />
           </Route>
           <Route path="/login" element={<LoginSignup />} />
-          <Route path="/mentop" element={<MenTop />} />
+          <Route path="/mentop" element={<WomenFootwear />} />
         </Routes>
         <Footer />
       </BrowserRouter>

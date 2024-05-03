@@ -625,26 +625,26 @@ let mensAccessories = [
     id: 183,
     name: "New Era for New York Yankees Knit Beanie",
     price: 647,
-    image: {
+    image: [
       MilkEra1,
       MilkEra2,
       MilkEra3,
       MilkEra4,
       MilkEra5,
-    },
+    ],
     category: `Men's Accessories`,
   },
   {
     id: 184,
     name: "New Era for New York Yankees Knit Beanie",
     price: 647,
-    image: {
+    image: [
       BlackEra1,
       BlackEra2,
       BlackEra3,
       BlackEra4,
       BlackEra5,
-    },
+    ],
     category: `Men's Accessories`,
   },
   {

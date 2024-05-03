@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+
+.womenouterwear {
+ max-width: 80vw;
+ margin: auto;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 3rem;
+}
+
+.womenouterwear-hero {
+ position: relative;
+ width: 100%;
+ height: 70ch;
+ background-image: url(../../Components/Assets/womens_outerwear/KHW010177-001-FRONT_720x.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ display: flex;
+ justify-content: center;
+}
+
+.womenouterwear-hero h2 {
+ font-family: 'Jacques Francois Shadow';
+ position: absolute;
+ font-size: 3.5rem;
+ top: 55%;
+ color: #fff;
+}

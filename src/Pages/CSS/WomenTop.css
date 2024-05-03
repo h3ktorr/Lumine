@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+
+.womentop {
+ max-width: 80vw;
+ margin: auto;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 3rem;
+}
+
+.womentop-hero {
+ position: relative;
+ width: 100%;
+ height: 70ch;
+ background-image: url(../../Components/Assets/womens_top/KHW030373-425-DETAIL-3_720x.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ display: flex;
+ justify-content: center;
+}
+
+.womentop-hero h2 {
+ font-family: 'Jacques Francois Shadow';
+ position: absolute;
+ font-size: 3.5rem;
+ top: 60%;
+}

@@ -14,13 +14,13 @@ const Men = () => {
   return (
     <div className='men'>
      <MensHero />
-     <MensOuterwear />
-     <MensTop />
+     <MensOuterwear amount={6}/>
+     <MensTop amount={6}/>
      <MensNewArrival />
-     <MensBottom />
-     <MensAccessories />
+     <MensBottom amount={6}/>
+     <MensAccessories amount={6}/>
      <MensFootwearHero />
-     <MensFootwear />
+     <MensFootwear amount={6}/>
      <ExploreMenButton />
     </div>
   )

@@ -4,8 +4,11 @@ import mensBottom from '../Assets/mens_bottom.js';
 import Item from '../Item/Item';
 
 
-const MensBottom = () => {
-  let bottom = mensBottom.slice(0, 6);
+const MensBottom = ({amount}) => {
+  let bottom = mensBottom.slice(0, amount);
+  if (amount > 10) {
+    bottom = mensBottom;
+  }
   return (
     <div className="mensbottom">
       <h1>Mens Bottom</h1>

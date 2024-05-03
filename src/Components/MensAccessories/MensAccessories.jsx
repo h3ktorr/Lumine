@@ -3,8 +3,11 @@ import "./MensAccessories.css";
 import mensAccessories from '../Assets/mens_accessories.js';
 import Item from '../Item/Item';
 
-const MensAccessories = () => {
-  let accessories = mensAccessories.slice(0, 6);
+const MensAccessories = ({amount}) => {
+  let accessories = mensAccessories.slice(0, amount);
+  if (amount > 10) {
+    accessories = mensAccessories;
+  }
   return (
     <div className="mensaccessories">
       <h1>Mens Accessories</h1>
