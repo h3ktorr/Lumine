@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './WomensDress.css';
 import Item from '../Item/Item';
 import womensDress from '../Assets/womens_dress.js';
@@ -25,7 +26,9 @@ const WomensDress = ({amount}) => {
           );
         })}
       </div>
-      <button>View more</button>
+      <button>
+        <Link to="dress">View more</Link>
+      </button>
     </div>
   );
 }
