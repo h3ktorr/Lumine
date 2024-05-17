@@ -1,8 +1,5 @@
-import { BrowserRouter, Routes, Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from "react-router-dom";
+import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from "react-router-dom";
 import "./App.css";
-import Navbar from "./Components/Navbar/Navbar";
-import Footer from "./Components/Footer/Footer";
-import Cart from "./Components/Cart/Cart";
 
 //Pages
 import Shop from "./Pages/Shop";
@@ -26,7 +23,7 @@ import WomenDress from "./Pages/WomenDress";
 import RootLayout from "./Layouts/RootLayout";
 import MenLayout from "./Layouts/MenLayout";
 import WomenLayout from "./Layouts/WomenLayout";
-import ProductLayout from "./Layouts/WomenLayout";
+import ProductLayout from "./Layouts/ProductLayout";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -60,34 +57,7 @@ const router = createBrowserRouter(
 function App() {
   return (
     <div>
-      <BrowserRouter>
-        <Navbar />
-        <Cart />
-        <Routes>
-          <Route path="/" element={<Shop />} />
-          <Route path="/mens" element={<Men />}>
-            <Route path="accessories" element={<MenAccessories />} />
-            <Route path="bottom" element={<MenBottom />} />
-            <Route path="footwear" element={<MenFootwear />} />
-            <Route path="outerwear" element={<MenOuterwear />} />
-            <Route path="top" element={<MenTop />} />
-          </Route>
-          <Route path="/womens" element={<Women />}>
-            <Route path="accessories" element={<WomenAccessories />} />
-            <Route path="bottom" element={<WomenBottom />} />
-            <Route path="footwear" element={<WomenFootwear />} />
-            <Route path="outerwear" element={<WomenOuterwear />} />
-            <Route path="top" element={<WomenTop />} />
-            <Route path="dress" element={<WomenDress />} />
-          </Route>
-          <Route path="/product" element={<Product />}>
-            <Route path=":productId" element={<Product />} />
-          </Route>
-          <Route path="/login" element={<LoginSignup />} />
-          <Route path="/mentop" element={<WomenFootwear />} />
-        </Routes>
-        <Footer />
-      </BrowserRouter>
+      <RouterProvider router={router} />
     </div>
   );
 }
