@@ -2,7 +2,6 @@ import React from 'react';
 import "./MensNewArrival.css";
 import mensnewarrival_image from "../Assets/mens_outerwears/SHOT62_3637_720x.jpg";
 
-
 const MensNewArrival = () => {
   return (
     <div className="mensnewarrival">

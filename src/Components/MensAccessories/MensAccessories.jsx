@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./MensAccessories.css";
 import mensAccessories from '../Assets/mens_accessories.js';
 import Item from '../Item/Item';
-
+ 
 const MensAccessories = ({amount}) => {
   let accessories = mensAccessories.slice(0, amount);
   if (amount > 10) {

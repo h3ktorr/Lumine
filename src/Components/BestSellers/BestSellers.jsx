@@ -1,7 +1,7 @@
-import React from 'react'
-import './BestSellers.css'
-import Item from '../Item/Item'
-import bestsellers from '../Assets/bestsellers'
+import React from 'react';
+import './BestSellers.css';
+import Item from '../Item/Item';
+import bestsellers from '../Assets/bestsellers';
 
 const BestSellers = () => {
   return (

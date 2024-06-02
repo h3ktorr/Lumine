@@ -1,0 +1,28 @@
+.sidebar{
+ position: fixed;
+ z-index: 1000;
+ top: 0;
+ background: #fff;
+ height: 100%;
+ width: 80%;
+ transform: translateX(-100%);
+ transition: .5s;
+}
+
+.show-sidebar{
+ transform: translateX(0);}
+
+.sidebar-container{
+ margin: 0 1rem;
+}
+
+.sidebar-logo img{
+ max-width: 6.5rem;
+}
+
+.sidebar-header{
+ display: flex;
+ justify-content: space-between;
+ margin-right: 30%;
+ padding: 1rem 0;
+}

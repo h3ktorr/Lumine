@@ -3,7 +3,7 @@ import "./Item.css";
 import { Link } from "react-router-dom";
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 import { ShopContext } from "../../Context/ShopContext";
-
+ 
 const Item = (props) => {
   const [isHovered, setIsHovered] = useState(false);
   const [selectedSize, setSelectedSize] = useState(null);
@@ -13,7 +13,6 @@ const Item = (props) => {
   const { id, image, price, name } = props;
 
   const imageData = image[0]
-  console.log(imageData)
 
   const handleSizeChange = (sizeId, sizeName) => {
     chooseSize(sizeId, sizeName);

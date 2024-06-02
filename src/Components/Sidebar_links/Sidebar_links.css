@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+.sidebar-links{
+ margin-top: 1rem;
+ font-family: 'itim';
+ font-size: 1rem;
+}
+
+.sidebar-links a{
+  text-decoration: none;
+  color: inherit;
+}
+
+/* .sidebar-category{
+  margin-top: 0.5rem;
+} */
+
+.category-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.category-body {
+  text-decoration: none;
+  font-family: 'Jacques Francois';
+  margin: 0.4rem 0 1rem;
+}
+
+.category-body p{
+  font-size: 1rem;
+  margin-top: 0.3rem;
+}

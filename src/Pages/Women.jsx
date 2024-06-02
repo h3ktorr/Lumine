@@ -9,21 +9,23 @@ import WomensDress from '../Components/WomensDress/WomensDress'
 import WomensAccessories from '../Components/WomensAccessories/WomensAccessories'
 import WomensFootwearHero from '../Components/WomensFootwearHero/WomensFootwearHero'
 import WomensFootwear from '../Components/WomensFootwear/WomensFootwear'
+import ExploreWomenButton from '../Components/ExploreWomenButton/ExploreWomenButton'
 
 const Women = () => {
   return (
-    <div className='women'>
+    <div className="women">
       <WomensHero />
-      <WomensOuterwear />
-      <WomensTop />
+      <WomensOuterwear amount={6} />
+      <WomensTop amount={6} />
       <WomensNewArrival />
-      <WomensBottom />
-      <WomensDress />
-      <WomensAccessories />
+      <WomensBottom amount={6} />
+      <WomensDress amount={6} />
+      <WomensAccessories amount={6} />
       <WomensFootwearHero />
-      <WomensFootwear />
+      <WomensFootwear amount={9} />
+      <ExploreWomenButton />
     </div>
-  )
+  );
 }
 
 export default Women

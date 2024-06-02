@@ -6,3 +6,12 @@
    align-items: center;
    margin-top: 3rem;
 }
+
+
+/* ----media query----- */
+
+@media (max-width: 1000px) {
+   .men {
+      max-width: 90vw;
+   }
+}

@@ -7,6 +7,6 @@ const ExploreMenButton = () => {
       <button>Explore All Men</button>
     </div>
   );
-}
+} 
 
 export default ExploreMenButton

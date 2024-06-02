@@ -3,7 +3,7 @@ import './NowInSale.css';
 import Item from '../Item/Item';
 import bestsellers from '../Assets/bestsellers';
 
-const NowInSale = () => {
+const NowInSale = () => { 
   return (
     <div className="nowinsale">
       <h1>Now in Sale</h1>

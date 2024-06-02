@@ -6,7 +6,7 @@ const MenOuterwear = () => {
   return (
     <div className="menouterwear">
       <div className="menouterwear-hero">
-        <h2>Tops for you</h2>
+        <h2>Outerwears for you</h2>
       </div>
       <MensOuterwear amount={11}/>
     </div>

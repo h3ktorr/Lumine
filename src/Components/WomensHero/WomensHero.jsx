@@ -1,7 +1,7 @@
 import React from 'react';
 import "./WomensHero.css";
 import womenshero_image from "../Assets/womens_dress/Womens_Fall_23_EcommDay2_LOOK58_SHOT1_2916copy_720x.jpg";
-
+ 
 const WomensHero = () => {
   return (
     <div className="womenshero">

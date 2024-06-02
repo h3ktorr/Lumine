@@ -8,11 +8,11 @@ const MensOuterwear = ({amount}) => {
   let outerwear = mensOuterwear.slice(0, amount);
   if (amount > 10) {
     outerwear = mensOuterwear;
-  }
+  }  
   return (
     <div className="mensouterwear">
       <h1>Mens OuterWear</h1>
-      <div className="mensaccessories-items">
+      <div className="mensouterwear-items">
         {outerwear.map((item) => {
           const images = [...item.image];
           return (

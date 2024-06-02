@@ -14,7 +14,7 @@ const Footer = () => {
           <li>OuterWears</li>
           <li>Tops</li>
           <li>Bottom</li>
-          <li>Footwears</li>
+          <li>Footwears</li> 
           <li>Accessories</li>
         </ul>
       </div>
@@ -34,7 +34,7 @@ const Footer = () => {
           <li>Become a Retailer</li>
           <li>Contact Us</li>
           <li>Blog</li>
-          <li>Terms and Condition</li>
+          <li>Terms & Condition</li>
         </ul>
       </div>
     </div>

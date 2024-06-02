@@ -4,19 +4,21 @@
 .menshero {
  width: 100%;
  margin-top: 0;
-}
+ max-height: 100vh;
+} 
 
 .menshero-container {
  display: flex;
  background-color: #BFBFBF;
  width: 100%;
  position: relative;
+ height: 100vh;
 }
 
 .menshero-left {
  position: absolute;
- top: 5rem;
- left: 8rem;
+ top: 12%;
+ left: 13%;
 }
 
 .menshero-left h2 {
@@ -34,6 +36,9 @@
  width: 30%;
  cursor: pointer;
  margin-top: 2rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 .menshero-right {
@@ -41,6 +46,78 @@
 }
 
 .menshero-right img {
- max-width: 70ch;
- min-height: 100%;
+ max-width: 100%;
+ height: 100vh;
+ object-fit: cover;
+}
+
+
+
+/* ----media query----- */
+
+@media screen and (max-width: 1200px) {
+ .menshero-left h2 {
+  font-size: 2.5rem;
+ }
+
+ .menshero-left button {
+  height: 2.5rem;
+  font-size: 1.4rem;
+ }
+}
+
+@media screen and (max-width: 1000px) {
+ .menshero-left{
+  top: 10%;
+ }
+}
+
+@media screen and (max-width: 840px) {
+ .menshero-left {
+  left: 10%;
+ }
+
+ .menshero-left h2 {
+  font-size: 2rem;
+ }
+
+ .menshero-left button {
+  height: 2rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+ }
+}
+
+@media screen and (max-width: 640px) {
+ .menshero-left {
+  left: 20%;
+  top: 60%;
+  color: #fff;
+ }
+
+ .menshero-left h2 {
+  font-size: 1.8rem;
+ }
+}
+
+@media screen and (max-width: 500px) {
+ .menshero-left {
+  left: 11%;
+ }
+
+ .menshero-left h2 {
+  font-size: 1.5rem;
+ }
+}
+
+@media screen and (max-width: 370px) {
+ .menshero-left {
+  left: 7%;
+ }
+}
+
+@media screen and (max-width: 320px) {
+ .menshero-left h2 {
+  font-size: 1.3rem;
+ }
 }

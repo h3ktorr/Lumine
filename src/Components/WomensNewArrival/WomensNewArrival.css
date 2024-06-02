@@ -4,6 +4,7 @@
 .womensnewarrival {
  width: 100%;
  margin-top: 4.5rem;
+ max-height: 100vh;
 }
 
 .womensnewarrival-container {
@@ -11,12 +12,13 @@
  background: #F9F7F9;
  width: 100%;
  position: relative;
+ height: 100vh;
 }
 
 .womensnewarrival-left {
  position: absolute;
- top: 22rem;
- left: 8rem;
+ top: 50%;
+ left: 15%;
 }
 
 .womensnewarrival-left h2 {
@@ -34,6 +36,9 @@
  width: 30%;
  cursor: pointer;
  margin-top: 2rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 .womensnewarrival-right {
@@ -41,6 +46,79 @@
 }
 
 .womensnewarrival-right img {
- max-width: 90ch;
- min-height: 100%;
+ max-width: 100%;
+ height: 100vh;
+ object-fit: cover;
+}
+
+
+
+
+/* ----media query----- */
+
+@media screen and (max-width: 1200px) {
+ .womensnewarrival-left h2 {
+  font-size: 2.5rem;
+ }
+
+ .womensnewarrival-left button {
+  font-size: 1.3rem;
+ }
+}
+
+@media screen and (max-width: 860px) {
+ .womensnewarrival-left {
+  left: 10%;
+ }
+
+ .womensnewarrival-left h2 {
+  font-size: 2rem;
+ }
+
+ .womensnewarrival-left button {
+  height: 2rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+ }
+}
+
+@media screen and (max-width: 760px) {
+ .womensnewarrival-left {
+  top: 70%;
+ }
+
+ .womensnewarrival-left h2 {
+  font-size: 1.7rem;
+ }
+
+ .womensnewarrival-left button {
+  font-size: 0.8rem;
+ }
+}
+
+@media screen and (max-width: 680px) {
+ .womensnewarrival-left {
+  top: 45%;
+  left: 60%;
+ }
+
+ .womensnewarrival-left h2 {
+  font-size: 1.5rem;
+ }
+}
+
+@media screen and (max-width: 480px) {
+ .womensnewarrival-left h2 {
+  font-size: 1.3rem;
+ }
+
+ .womensnewarrival-left button {
+  width: 40%;
+ }
+}
+
+@media screen and (max-width: 380px) {
+ .womensnewarrival-left button {
+  font-size: 0.7rem;
+ }
 }

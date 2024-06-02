@@ -8,7 +8,7 @@ const WomensOuterwear = ({amount}) => {
   let outerwear = womensOuterwear.slice(0, amount);
   if (amount > 10) {
     outerwear = womensOuterwear;
-  }
+  } 
   return (
     <div className="womensouterwear">
       <h1>Womens OuterWear</h1>

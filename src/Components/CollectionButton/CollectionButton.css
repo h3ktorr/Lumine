@@ -3,6 +3,7 @@
 .collectionbutton{
  align-self: center;
  margin-top: 3.5rem;
+ width: 30%;
 }
 
 .collectionbutton button{
@@ -12,7 +13,54 @@
   font-size: 1.5rem;
   padding: 0.5rem;
   font-family: 'itim';
-  width: 19rem;
+  width: 100%;
   height: 5rem;
   cursor: pointer;
 }
+
+
+/* ----media query----- */
+
+@media screen and (max-width: 840px) {
+ .collectionbutton{
+  width: 40%;
+ }
+}
+
+@media screen and (max-width: 640px) {
+ .collectionbutton button{
+  font-size: 1.3rem;
+ }
+}
+
+@media screen and (max-width: 560px) {
+ .collectionbutton{
+  width: 50%;
+ }
+}
+
+@media screen and (max-width: 450px) {
+  .collectionbutton{
+    width: 60%;
+  }
+  
+  .collectionbutton button{
+    height: 4rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+ .collectionbutton{
+  width: 70%;
+ }
+
+ .collectionbutton button {
+   font-size: 1.2rem;
+ }
+}
+
+@media screen and (max-width: 300px) {
+ .collectionbutton{
+  width: 75%;
+ }
+} 

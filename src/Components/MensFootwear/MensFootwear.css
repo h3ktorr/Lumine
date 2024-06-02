@@ -1,20 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Irish+Grover&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
-.mensfootwear-items {
- display: grid;
- grid-template-columns: 1fr 1fr 1fr;
- margin-top: 1rem;
- width: 100%;
- gap: 1.8rem;
-}
-
 .mensfootwear {
  width: 100%;
  overflow: hidden;
  margin-top: 3.5rem;
  display: flex;
  flex-direction: column;
+}
+
+.mensfootwear a {
+ text-decoration: none;
+ color: inherit;
 }
 
 .mensfootwear h1 {
@@ -32,4 +29,40 @@
  font-family: "Itim";
  font-size: 1rem;
  color: #000;
+}
+
+.mensfootwear-items {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ margin-top: 1rem;
+ width: 100%;
+ gap: 1.8rem;
+}
+
+
+
+/* ----media query----- */
+
+@media screen and (max-width: 1000px) {
+ .mensfootwear h1 {
+  font-size: 1.3rem;
+ }
+}
+
+@media screen and (max-width: 740px) {
+ .mensfootwear-items {
+  grid-template-columns: 1fr 1fr;
+ }
+}
+
+@media screen and (max-width: 400px) {
+ .mensfootwear h1 {
+  font-size: 1.15rem;
+ }
+
+ .mensfootwear button {
+  max-width: 5rem;
+  min-height: 1.5rem;
+  font-size: 0.8rem;
+ }
 }

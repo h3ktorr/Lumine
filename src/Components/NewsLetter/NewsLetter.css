@@ -9,11 +9,15 @@
  justify-content: space-around;
  align-items: center;
 }
-
+ 
 .newsletter h1{
  font-family: "Jomolhari";
  color: #fff;
  font-size: 1.7rem;
+}
+
+.newsletter-small{
+ display: none;
 }
 
 .newsletter div {
@@ -46,4 +50,136 @@
  font-size: 1rem;
  cursor: pointer;
  font-family: "Jomolhari";
+}
+
+
+
+/* ----media query----- */
+
+@media screen and (max-width: 1200px) {
+ .newsletter div {
+   width: 25rem;
+ }
+}
+
+@media screen and (max-width: 1000px) {
+ .newsletter h1 {
+  font-size: 1.5rem;
+ }
+}
+
+@media screen and (max-width: 840px) {
+ .newsletter{
+  min-height: 7rem;
+ }
+ 
+ .newsletter h1 {
+  font-size: 1.2rem;
+ }
+ 
+ .newsletter div {
+  width: 20rem;
+  min-height: 3rem;
+ }
+ 
+ .newsletter div button {
+  height: 3rem;
+  font-size: 0.8rem;
+ }
+}
+
+@media screen and (max-width: 660px) {
+ .newsletter h1 {
+   font-size: 1.1rem;
+  }
+ 
+  .newsletter div {
+   width: 18rem;
+  }
+ 
+  .newsletter div button {
+   /* width: 10%; */
+   font-size: 0.8rem;
+  }
+
+  .newsletter-input input{
+   font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 570px) {
+ .newsletter h1{
+  font-size: 1rem;
+ }
+
+ .newsletter div {
+  width: 15rem;
+  min-height: 2rem;
+ }
+ 
+ .newsletter div button {
+  height: 2rem;
+  font-size: 0.6rem;
+ }
+}
+
+@media screen and (max-width: 500px) {
+ .newsletter{
+  flex-direction: column;
+  min-height: 6rem;
+ }
+
+ .newsletter-small{
+  display: block;
+ }
+
+ .newsletter-big{
+  display: none;
+ }
+}
+
+@media screen and (max-width: 420px) {
+ .newsletter h1{
+  font-size: 0.9rem;
+ }
+}
+
+@media screen and (max-width: 380px) {
+ .newsletter h1 {
+   font-size: 0.8rem;
+ }
+}
+
+@media screen and (max-width: 340px) {
+ .newsletter{
+  padding: .5rem 1rem;
+  gap: 1rem;
+ }
+}
+
+@media screen and (max-width: 280px) {
+ .newsletter div {
+  width: 13rem;
+  min-height: 1.7rem;
+ }
+ 
+ .newsletter div button {
+  height: 1.7rem;
+  font-size: 0.5rem;
+ }
+}
+
+@media screen and (max-width: 250px) {
+ .newsletter div {
+  width: 12rem;
+  min-height: 1.5rem;
+ }
+
+ .newsletter-input input{
+  font-size: 0.6rem;
+ }
+
+ .newsletter div button {
+  height: 1.5rem;
+ }
 }

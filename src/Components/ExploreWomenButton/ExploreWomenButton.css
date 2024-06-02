@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
-.exploremenbutton {
+.explorewomenbutton {
  align-self: center;
  margin-top: 3.5rem;
  width: 30%;
 }
- 
-.exploremenbutton button {
+
+.explorewomenbutton button {
  background-color: #A96161;
  color: #fff;
  border-radius: 10px;
@@ -23,46 +23,46 @@
 
 /* ----media query----- */
 
-@media screen and (max-width: 840px) {
- .exploremenbutton {
+@media screen and (max-width: 890px) {
+ .explorewomenbutton {
   width: 40%;
  }
 }
 
-@media screen and (max-width: 640px) {
- .exploremenbutton button {
+@media screen and (max-width: 670px) {
+ .explorewomenbutton button {
   font-size: 1.3rem;
  }
 }
 
-@media screen and (max-width: 560px) {
- .exploremenbutton {
+@media screen and (max-width: 590px) {
+ .explorewomenbutton {
   width: 50%;
  }
 }
 
-@media screen and (max-width: 450px) {
- .exploremenbutton {
+@media screen and (max-width: 480px) {
+ .explorewomenbutton {
   width: 60%;
  }
 
- .exploremenbutton button {
+ .explorewomenbutton button {
   height: 4rem;
  }
 }
 
-@media screen and (max-width: 360px) {
- .exploremenbutton {
+@media screen and (max-width: 390px) {
+ .explorewomenbutton {
   width: 70%;
  }
 
- .exploremenbutton button {
+ .explorewomenbutton button {
   font-size: 1.2rem;
  }
 }
 
 @media screen and (max-width: 300px) {
- .exploremenbutton {
+ .explorewomenbutton {
   width: 75%;
  }
 }

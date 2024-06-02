@@ -10,8 +10,11 @@ import womens_dress from "../Components/Assets/womens_dress";
 import womens_footwear from "../Components/Assets/womens_footwears";
 import womens_top from "../Components/Assets/womens_top";
 import womens_outerwear from "../Components/Assets/womens_outerwear";
+import sidebar_data from '../Components/Assets/sidebar_data';
 
 export const ShopContext = createContext(null);
+
+
 
 const allProducts = [
   ...mens_accessories,
@@ -46,7 +49,24 @@ const ShopContextProvider = (props) => {
   const [cartItems, setCartItem] = useState(getDefaultCart());
   const [cartSizes, setCartSizes] = useState(getDefaultSizes())
   const [isCartOpen, setIsCartOpen] = useState(false);
-  // const [size, setSize] = useState("");
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [sidebarLinks, setSidebarLinks] = useState(sidebar_data);
+
+  console.log(isSidebarOpen);
+  const openSidebar = () => {
+    setIsSidebarOpen(true)
+  };
+  const closeSidebar = () => {
+    setIsSidebarOpen(false)
+  };
+
+  const handleCategory = (value) => {
+    for (let i = 0; i < sidebarLinks.length; i++) {
+      if (sidebarLinks[i].id === value) {
+        setSidebarLinks([...sidebarLinks], sidebarLinks[i].categoryState = !sidebarLinks[i].categoryState);
+      }
+    }
+  }
 
   const chooseSize = (itemId, itemSize) => {
     setCartSizes((prev) => ({...prev, [itemId]: itemSize}));
@@ -109,7 +129,12 @@ const ShopContextProvider = (props) => {
     getTotalCartAmount,
     deleteCartItem,
     cartSizes,
-    chooseSize
+    chooseSize,
+    sidebarLinks,
+    handleCategory,
+    isSidebarOpen,
+    openSidebar,
+    closeSidebar,
   };
   
   return (

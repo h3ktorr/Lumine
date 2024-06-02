@@ -4,24 +4,30 @@
 .holidaysale{
    margin-top: 4.5rem;
    width: 100%;
+   max-height: 100vh;
 }
-
+ 
 .holidaysale-container{
   display: flex;
-  background: linear-gradient(90deg, rgba(89, 88, 93, 1) 0%, rgba(204, 203, 208, 1) 53%, rgba(89, 88, 93, 1) 59%, rgba(204, 203, 208, 1) 62%, rgba(204, 203, 208, 1) 100%);
+  background: linear-gradient(90deg, rgba(89, 88, 93, 1) 0%, rgba(204, 203, 208, 1) 53%, rgba(89, 88, 93, 1) 100%, rgba(204, 203, 208, 1) 62%, rgba(204, 203, 208, 1) 100%);
   position: relative;
+  width: 100%;
+  height: 100vh;
 }
 
 .holidaysale-left img {
-  max-width: 70ch;
-  min-height: 100%;
+  max-width: 100%;
+  height: 100vh;
+  object-fit: cover;
 }
 
 .holidaysale-right{
  position: absolute;
  top: 40%;
  left: 45%;
- width: 25rem;
+ /* background-color: aqua; */
+ width: 50%;
+ height: 30%;
 }
 
 .holidaysale-right h2{
@@ -30,6 +36,7 @@
 }
 
 .holidaysale-right button{
+  position: absolute;
   background-color: #000;
   color: #fff;
   border-radius: 10px;
@@ -37,6 +44,126 @@
   padding: 0.5rem;
   font-family: 'itim';
   width: 30%;
+  height: 30%;
   cursor: pointer;
-  margin-left: 2rem;
+  left: 45%;
+  top: 50%;
+}
+
+
+
+/* ----media query----- */
+
+@media screen and (max-width: 1200px) {
+  .holidaysale-right h2 {
+    font-size: 2.5rem;
+  }
+
+  .holidaysale-right button {
+    left: 40%;
+    top: 35%;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+.holidaysale-right button {
+  left: 45%;
+}
+}
+
+@media screen and (max-width: 900px) {
+  .holidaysale-container{
+    background: linear-gradient(90deg, rgba(89, 88, 93, 1) 10%, rgba(204, 203, 208, 1) 100%, rgba(89, 88, 93, 1) 100%, rgba(204, 203, 208, 1) 6%, rgba(204, 203, 208, 1) 100%);
+  }
+
+  .holidaysale-right{
+    top: 60%;
+    left: 55%;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .holidaysale-right h2 {
+    font-size: 2rem;
+  }
+
+  .holidaysale-right button {
+    width: 25%;
+    font-size: 1.2rem;
+    height: 25%;
+    top: 30%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .holidaysale-right {
+    left: 60%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .holidaysale-right {
+    width: 40%;
+  }
+  .holidaysale-right h2 {
+    font-size: 1.8rem;
+  }
+  .holidaysale-right button {
+    top: 50%;
+    left: 0;
+    font-size: 1.1rem;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .holidaysale-right h2 {
+    font-size: 1.5rem;
+  }
+
+  .holidaysale-right button {
+    top: 50%;
+    font-size: 1rem;
+  }
+}
+
+
+@media screen and (max-width: 460px) {
+  .holidaysale-right h2 {
+      font-size: 1.8rem;
+    }
+  .holidaysale-right {
+    top: 10%;
+    left: 10%;
+    width: 70%;
+  }
+  
+  .holidaysale-right button {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .holidaysale-right h2 {
+    font-size: 1.5rem;
+  }
+  .holidaysale-right button {
+    top: 40%;
+  }
+}
+
+@media screen and (max-width: 260px) {
+  .holidaysale-right h2 {
+    font-size: 1.3rem;
+  }
+
+  .holidaysale-right button {
+    height: 20%;
+  }
+}
+
+@media screen and (max-width: 225px) {
+  .holidaysale-right button {
+    top: 50%;
+  }
 }
