@@ -12,7 +12,7 @@
 .womentop-hero {
  position: relative;
  width: 100%;
- height: 70ch;
+ height: 95vh;
  background-image: url(../../Components/Assets/womens_top/KHW030373-425-DETAIL-3_720x.jpg);
  background-repeat: no-repeat;
  background-size: cover;
@@ -26,4 +26,37 @@
  position: absolute;
  font-size: 3.5rem;
  top: 60%;
+}
+
+
+
+
+/* ----media query----- */
+
+@media screen and (max-width: 1200px) {
+ .womentop-hero h2 {
+  font-size: 2.8rem;
+ }
+}
+
+@media (max-width: 1000px) {
+ .womentop {
+  max-width: 90vw;
+ }
+
+ .womentop-hero h2 {
+  font-size: 2.5rem;
+ }
+}
+
+@media (max-width: 660px) {
+ .womentop-hero h2 {
+  font-size: 2.2rem;
+ }
+}
+
+@media (max-width: 400px) {
+ .womentop-hero h2 {
+  font-size: 2rem;
+ }
 }

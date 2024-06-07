@@ -12,7 +12,7 @@
 .menfootwear-hero {
  position: relative;
  width: 100%;
- height: 70ch;
+ height: 95vh;
  background-image: url(../../Components/Assets/mens_footwear/diemme-kith-flats0093_720x.jpg);
  background-repeat: no-repeat;
  background-size: cover;
@@ -25,4 +25,50 @@
  font-size: 3.5rem;
  top: 68%;
  left: 46%;
+}
+
+
+
+
+/* ----media query----- */
+
+@media screen and (max-width: 1250px) {
+ .menfootwear-hero h2 {
+  font-size: 2.8rem;
+ }
+}
+
+@media (max-width: 1000px) {
+ .menfootwear {
+  max-width: 90vw;
+ }
+
+ .menfootwear-hero h2 {
+  font-size: 2.5rem;
+ }
+}
+
+@media (max-width: 800px) {
+ .menfootwear-hero h2 {
+  font-size: 2rem;
+ }
+}
+
+@media (max-width: 600px) {
+ .menfootwear-hero h2 {
+  left: 40%;
+  font-size: 1.9rem;
+ }
+}
+
+@media (max-width: 360px) {
+ .menfootwear-hero h2 {
+  font-size: 1.7rem;
+ }
+}
+
+@media (max-width: 320px) {
+ .menfootwear-hero h2 {
+  font-size: 1.5rem;
+ }
 }

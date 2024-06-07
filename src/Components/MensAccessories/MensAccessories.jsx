@@ -26,9 +26,9 @@ const MensAccessories = ({amount}) => {
           );
         })}
       </div>
-      <button>
+      {amount < 10 && <button>
         <Link to="accessories">View more</Link>
-      </button>
+      </button>}
     </div>
   );
 }

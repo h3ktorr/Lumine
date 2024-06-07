@@ -6,3 +6,13 @@
  align-items: center;
  margin-top: 3rem;
 }
+
+
+
+/* ----media query----- */
+
+@media (max-width: 1000px) {
+ .product {
+  max-width: 90vw;
+ }
+}

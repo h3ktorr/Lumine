@@ -12,7 +12,7 @@
 .menaccessories-hero {
  position: relative;
  width: 100%;
- height: 70ch;
+ height: 95vh;
  background-image: url(../../Components/Assets/mens_accessories/KHM040090-451-BACK_720x.jpg);
  background-repeat: no-repeat;
  background-size: cover;
@@ -27,5 +27,43 @@
  font-size: 3.5rem;
  color: #fff;
  top: 55%;
+}
 
+
+
+
+/* ----media query----- */
+
+@media screen and (max-width: 1200px) {
+ .menaccessories-hero h2 {
+  font-size: 2.8rem;
+ }
+}
+
+@media (max-width: 1000px) {
+ .menaccessories {
+  max-width: 90vw;
+ }
+
+ .menaccessories-hero h2 {
+  font-size: 2.5rem;
+ }
+}
+
+@media (max-width: 800px) {
+ .menaccessories-hero h2 {
+  font-size: 2rem;
+ }
+}
+
+@media (max-width: 450px) {
+ .menaccessories-hero h2 {
+  font-size: 1.7rem;
+ }
+}
+
+@media (max-width: 360px) {
+ .menaccessories-hero h2 {
+  font-size: 1.5rem;
+ }
 }

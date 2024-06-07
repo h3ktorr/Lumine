@@ -20,6 +20,6 @@ const Product = () => {
      <NewsLetter />
     </div>
   )
-}
+} 
 
 export default Product

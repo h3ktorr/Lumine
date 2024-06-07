@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useState } from "react";
 import "./Item.css";
 import { Link } from "react-router-dom";
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
@@ -11,8 +11,6 @@ const Item = (props) => {
   const { addToCart, chooseSize, openCart } = useContext(ShopContext);
   const [index, setIndex] = useState(0);
   const { id, image, price, name } = props;
-
-  const imageData = image[0]
 
   const handleSizeChange = (sizeId, sizeName) => {
     chooseSize(sizeId, sizeName);
@@ -56,7 +54,7 @@ const Item = (props) => {
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
-        <div className="hoverContainer">
+        <div className="hoverContainer"> 
           <div className="hoverButtons">
             <div
               className={isHovered ? "hoverPrev showPrev" : "hoverPrev"}

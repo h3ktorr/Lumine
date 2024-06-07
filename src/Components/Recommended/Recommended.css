@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Irish+Grover&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
-.recommended-items {
- display: flex;
- gap: 1.12rem;
- margin-top: 1rem;
-}
-
 .recommended {
  width: 100%;
  overflow: hidden;
@@ -29,4 +23,37 @@
  font-family: "Itim";
  font-size: 1rem;
  color: #000;
+}
+
+.recommended-items {
+ display: flex;
+ gap: 1.12rem;
+ margin-top: 1rem;
+}
+
+/* .recommended:last-child */
+
+
+
+/* ----media query----- */
+
+@media screen and (max-width: 740px) {
+ .recommended h1 {
+  font-size: 1.25rem;
+ }
+ .recommended-items>:last-child {
+  display: none;
+ }
+}
+
+@media screen and (max-width: 400px) {
+ .recommended h1 {
+  font-size: 1.15rem;
+ }
+
+ .recommended button {
+  max-width: 5rem;
+  min-height: 1.5rem;
+  font-size: 0.8rem;
+ }
 }

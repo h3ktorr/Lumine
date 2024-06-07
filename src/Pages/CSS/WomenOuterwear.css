@@ -12,7 +12,7 @@
 .womenouterwear-hero {
  position: relative;
  width: 100%;
- height: 70ch;
+ height: 95vh;
  background-image: url(../../Components/Assets/womens_outerwear/KHW010177-001-FRONT_720x.jpg);
  background-repeat: no-repeat;
  background-size: cover;
@@ -27,4 +27,49 @@
  font-size: 3.5rem;
  top: 55%;
  color: #fff;
+}
+
+
+
+
+/* ----media query----- */
+
+@media screen and (max-width: 1200px) {
+ .womenouterwear-hero h2 {
+  font-size: 2.8rem;
+ }
+}
+
+@media (max-width: 1000px) {
+ .womenouterwear {
+  max-width: 90vw;
+ }
+
+ .womenouterwear-hero h2 {
+  font-size: 2.5rem;
+ }
+}
+
+@media (max-width: 800px) {
+ .womenouterwear-hero h2 {
+  font-size: 2.2rem;
+ }
+}
+
+@media (max-width: 450px) {
+ .womenouterwear-hero h2 {
+  font-size: 1.9rem;
+ }
+}
+
+@media (max-width: 360px) {
+ .womenouterwear-hero h2 {
+  font-size: 1.7rem;
+ }
+}
+
+@media (max-width: 320px) {
+ .womenouterwear-hero h2 {
+  font-size: 1.5rem;
+ }
 }

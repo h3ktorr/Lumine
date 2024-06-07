@@ -26,9 +26,11 @@ const WomensTop = ({amount}) => {
           );
         })}
       </div>
-      <button>
-        <Link to="top">View more</Link>
-      </button>
+      {amount < 10 && (
+        <button>
+          <Link to="top">View more</Link>
+        </button>
+      )}
     </div>
   );
 }
