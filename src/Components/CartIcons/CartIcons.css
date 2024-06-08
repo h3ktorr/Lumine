@@ -1,0 +1,8 @@
+.cart-icons {
+ margin: 5rem 0 6rem 0;
+ font-size: 4rem;
+ display: flex;
+ justify-content: center;
+ gap: 3rem;
+ color: rgb(100, 100, 206);
+}

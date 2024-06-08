@@ -34,3 +34,21 @@
   font-size: 1rem;
   margin-top: 0.3rem;
 }
+
+
+
+
+/* ----media query----- */
+
+@media screen and (max-width: 440px) {
+ .all-category{
+  font-size: 1.4rem;
+ }
+ .category-title{
+  font-size: .9rem;
+ }
+
+ .category-body p{
+  font-size: .9rem;
+ }
+}

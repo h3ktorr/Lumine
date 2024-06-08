@@ -52,7 +52,6 @@ const ShopContextProvider = (props) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [sidebarLinks, setSidebarLinks] = useState(sidebar_data);
 
-  console.log(isSidebarOpen);
   const openSidebar = () => {
     setIsSidebarOpen(true)
   };

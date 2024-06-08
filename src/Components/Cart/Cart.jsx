@@ -3,18 +3,13 @@ import { ShopContext } from "../../Context/ShopContext";
 import { IoClose } from "react-icons/io5";
 import CartItems from "../CartItems/CartItems";
 import "./Cart.css";
+import CartSummary from "../CartSummary/CartSummary";
+import CartFixedCheckout from "../CartFixedCheckout/CartFixedCheckout";
 import CartShopMore from "../CartShopMore/CartShopMore";
-import { FaPaypal, FaCcVisa } from "react-icons/fa6";
-
+import CartIcons from "../CartIcons/CartIcons";
 
 const Cart = () => {
-  const {
-    isCartOpen,
-    closeCart,
-    allProducts,
-    getTotalCartItems,
-    getTotalCartAmount,
-  } = useContext(ShopContext);
+  const { isCartOpen, closeCart } = useContext(ShopContext);
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -35,23 +30,7 @@ const Cart = () => {
     // return () => {
     //   document.removeEventListener("click", handleClickOutside);
     // };
-  },[isCartOpen]);  
-    
-
-  let random = Math.floor(Math.random() * 420) + 1;
-  let product = allProducts[random];
-  const recommendedItems = allProducts.filter(
-    (item) => item.category.toLowerCase() === product.category.toLowerCase()
-  );
-  function randomRecommends() {
-    let recommends = recommendedItems.slice();
-    const randomElements = [];
-    for (let i = 0; i < 2; i++) {
-      const randomIndex = Math.floor(Math.random() * recommends.length);
-      randomElements.push(recommends.splice(randomIndex, 1)[0]);
-    }
-    return randomElements;
-  }
+  }, [isCartOpen]);
 
   return (
     <div className={isCartOpen ? "cart show" : "cart"}>
@@ -60,58 +39,12 @@ const Cart = () => {
           <h1>Shopping Cart</h1>
           <IoClose className="closecart-btn" onClick={closeCart} />
         </div>
-        <div className="cart-items">
-          <CartItems />
-        </div>
-        <div className="cart-summary">
-          <p className="summaryheading">Order Summary</p>
-          <div className="summaryinfo">
-            <div className="summary-subtotal">
-              <p>Subtotal</p>
-              <p>${getTotalCartAmount()}</p>
-            </div>
-            <div className="summary-shipping">
-              <p>Shipping</p>
-              <p>Free Shipping</p>
-            </div>
-            <div className="summary-total">
-              <p>Total</p>
-              <p>${getTotalCartAmount()}</p>
-            </div>
-          </div>
-          <button>Checkout</button>
-        </div>
-        <div className="cart-shopmore">
-          <h1>Shop More</h1>
-          <div className="cart-shopmore-items">
-            {randomRecommends().map((item) => {
-              return (
-                <CartShopMore
-                  key={item.id}
-                  id={item.id}
-                  name={item.name}
-                  image={item.image[1]}
-                  price={item.price}
-                />
-              );
-            })}
-          </div>
-          <button>View more</button>
-        </div>
-        <div className="cart-icons">
-          <FaCcVisa />
-          <FaPaypal />
-        </div>
+        <CartItems />
+        <CartSummary />
+        <CartShopMore />
+        <CartIcons />
       </div>
-      <div className="cart-fixedcheckout">
-        <div className="fixedleft">
-          <p className="fixedleft-header">My Cart({getTotalCartItems()})</p>
-          <p className="fixedleft-price">${getTotalCartAmount()}</p>
-        </div>
-        <div className="fixedright">
-          <button>Checkout</button>
-        </div>
-      </div>
+      {/* <CartFixedCheckout /> */}
     </div>
   );
 };

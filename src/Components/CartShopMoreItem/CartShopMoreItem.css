@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&family=Jacques+Francois+Shadow&display=swap');
+
+.cartshopmore-item {
+ width: 100%;
+}
+
+.cartshopmore-item img {
+ width: 100%;
+}
+
+.cartshopmore-item p { 
+ font-family: 'Inria Serif';
+ margin: 0.5rem 0;
+}
+
+
+
+
+/* ----media query----- */
+
+@media screen and (max-width: 940px) {
+ .cartshopmore-item p {
+  font-size: 0.9rem;
+ }
+}
+
+@media screen and (max-width: 640px) {
+ .cartshopmore-item p {
+  font-size: 0.8rem;
+ }
+}

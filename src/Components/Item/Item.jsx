@@ -95,7 +95,7 @@ const Item = (props) => {
               alt="item-image"
               // onClick={window.scrollTo(0, 0)}
               className="item-image"
-            />
+            /> 
           </Link>
         </div>
       </div>

@@ -11,7 +11,7 @@ const CartItems = () => {
     addToCart,
     deleteCartItem,
     cartSizes,
-  } = useContext(ShopContext);
+  } = useContext(ShopContext); 
   return (
     <div className="cartitems">
       {allProducts.map((e) => {

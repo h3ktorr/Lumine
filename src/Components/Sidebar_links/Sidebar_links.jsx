@@ -9,7 +9,7 @@ const Sidebar_links = () => {
   return (
     <div className="sidebar-links">
       <Link>
-        <h2>All Categories</h2>
+        <h2 className='all-category'>All Categories</h2>
       </Link>
       <div className="sidebar-category">
         {sidebarLinks.map((item) => {

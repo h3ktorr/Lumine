@@ -1,14 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&family=Jacques+Francois+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
-.cartshopmore {
- width: 15rem;
+.cart-shopmore {
+ margin: 2rem 0;
+ display: flex;
+ flex-direction: column;
 }
 
-.cartshopmore img {
- width: 15rem;
+.cart-shopmore h1 {
+ font-family: "Irish Grover";
+ font-size: 1.5rem;
+ font-weight: 500;
+} 
+
+.cart-shopmore button {
+ background-color: #E8E8E6;
+ width: 6rem;
+ min-height: 1.7rem;
+ border-radius: 10px;
+ align-self: flex-end;
+ font-family: "Itim";
+ font-size: 1rem;
+ color: #000;
+ margin-top: 1rem;
 }
 
-.cartshopmore p {
- font-family: 'Inria Serif';
- margin: 0.5rem 0;
+.cart-shopmore-items {
+ display: flex;
+ margin-top: 1rem;
+ gap: 1.2rem;
+}
+
+
+
+
+/* ----media query----- */
+
+@media screen and (max-width: 1000px) {
+ .cart-shopmore h1 {
+  font-size: 1.3rem;
+ }
+}
+
+@media screen and (max-width: 400px) {
+ .cart-shopmore h1 {
+  font-size: 1.15rem;
+ }
+
+ .cart-shopmore button {
+  max-width: 5rem;
+  min-height: 1.5rem;
+  font-size: 0.8rem;
+ }
 }
