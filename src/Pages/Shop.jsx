@@ -6,6 +6,7 @@ import CollectionButton from '../Components/CollectionButton/CollectionButton';
 import HolidaySale from '../Components/HolidaySale/HolidaySale';
 import NowInSale from '../Components/NowInSale/NowInSale';
 import NewsLetter from '../Components/NewsLetter/NewsLetter';
+import ShopAllCollection from '../Components/ShopAllCollection/ShopAllCollection';
 
 const Shop = () => {
   return (
@@ -13,6 +14,7 @@ const Shop = () => {
       <Hero/>
       <BestSellers/>
       <CollectionButton />
+      <ShopAllCollection />
       <HolidaySale/>
       <NowInSale/>
       <NewsLetter/>

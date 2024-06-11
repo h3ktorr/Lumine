@@ -9,6 +9,7 @@ import MensBottom from '../Components/MensBottom/MensBottom';
 import MensFootwearHero from '../Components/MensFootwearHero/MensFootwearHero';
 import MensFootwear from '../Components/MensFootwear/MensFootwear';
 import ExploreMenButton from '../Components/ExploreMenButton/ExploreMenButton';
+import ShopAllMen from '../Components/ShopAllMen/ShopAllMen';
 
 const Men = () => {
   return (
@@ -22,6 +23,7 @@ const Men = () => {
      <MensFootwearHero />
      <MensFootwear amount={6}/>
      <ExploreMenButton />
+     <ShopAllMen />
     </div>
   )
 }

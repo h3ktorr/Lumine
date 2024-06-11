@@ -49,8 +49,16 @@ const ShopContextProvider = (props) => {
   const [cartItems, setCartItem] = useState(getDefaultCart());
   const [cartSizes, setCartSizes] = useState(getDefaultSizes())
   const [isCartOpen, setIsCartOpen] = useState(false);
+  const [isAllCollectionsOpen, setIsAllCollectionsOpen] = useState(false)
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [sidebarLinks, setSidebarLinks] = useState(sidebar_data);
+
+  const openAllCollections = () => {
+    setIsAllCollectionsOpen(true);
+  }
+  const closeAllCollections = () => {
+    setIsAllCollectionsOpen(false);
+  }
 
   const openSidebar = () => {
     setIsSidebarOpen(true)
@@ -134,6 +142,9 @@ const ShopContextProvider = (props) => {
     isSidebarOpen,
     openSidebar,
     closeSidebar,
+    isAllCollectionsOpen,
+    closeAllCollections,
+    openAllCollections,
   };
   
   return (

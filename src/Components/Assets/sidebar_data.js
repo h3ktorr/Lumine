@@ -5,7 +5,7 @@ const sidebar_data = [
     address: "./mens",
     categoryState: false,
     links: [
-      {
+      { 
         link_name: "Tops",
         link_address: "./mens/top",
       },

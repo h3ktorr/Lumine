@@ -10,6 +10,7 @@ import WomensAccessories from '../Components/WomensAccessories/WomensAccessories
 import WomensFootwearHero from '../Components/WomensFootwearHero/WomensFootwearHero'
 import WomensFootwear from '../Components/WomensFootwear/WomensFootwear'
 import ExploreWomenButton from '../Components/ExploreWomenButton/ExploreWomenButton'
+import ShopAllWomen from '../Components/ShopAllWomen/ShopAllWomen'
 
 const Women = () => {
   return (
@@ -24,6 +25,7 @@ const Women = () => {
       <WomensFootwearHero />
       <WomensFootwear amount={9} />
       <ExploreWomenButton />
+      <ShopAllWomen />
     </div>
   );
 }

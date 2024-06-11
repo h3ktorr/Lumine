@@ -47,13 +47,13 @@ const Navbar = () => {
       </ul>
       <div className="nav-icons">
         <IoSearch className="icon big-screen" />
-        <Link
+        {/* <Link
           style={{ textDecoration: "none" }}
           to="./login"
           className="big-screen"
         >
           <IoPersonOutline className="icon" />
-        </Link>
+        </Link> */}
         <PiShoppingCartSimpleFill className="icon" onClick={() => openCart()} />
         <div className="nav-cart-count">{cartIconAmount}</div>
       </div>

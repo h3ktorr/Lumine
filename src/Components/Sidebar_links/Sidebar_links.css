@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
 .sidebar-links{
- margin-top: 1rem;
+ margin: 1rem 1rem 0 0;
  font-family: 'itim';
  font-size: 1rem;
 }

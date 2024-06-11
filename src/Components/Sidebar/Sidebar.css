@@ -2,18 +2,25 @@
  position: fixed;
  z-index: 1000;
  top: 0;
- background: #fff;
- height: 100%;
- width: 80%;
+ left: 0;
+ background: transparent;
+ width: 100%;
  transform: translateX(-100%);
  transition: .5s;
-}
+} 
 
 .show-sidebar{
- transform: translateX(0);}
+ transform: translateX(0);
+ height: 100%;
+}
 
 .sidebar-container{
- margin: 0 1rem;
+ width: 80%;
+ /* margin: 0 1rem; */
+ padding-right: 1rem;
+ padding-left: 1rem;
+ background: #fff;
+ height: 100%;
 }
 
 .sidebar-logo img{

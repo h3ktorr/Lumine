@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Irish+Grover&display=swap');
+
+.shopallmen {
+ position: fixed;
+ top: 0;
+ width: 100vw;
+ height: 100vh;
+ opacity: 0;
+ visibility: hidden;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: rgba(0, 0, 0, 0.5);
+ z-index: -10000;
+ transition: .1s;
+}
+
+.display {
+ opacity: 1;
+ z-index: 10000;
+ visibility: visible;
+}
+
+.shopallmen-container {
+ background: #fff;
+ width: 40%;
+ height: 60%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ border-radius: 10px;
+ gap: 2rem;
+ font-family: 'itim';
+}
+
+.mencollection-header{
+ display: flex;
+ justify-content: space-between;
+ gap: 10rem;
+ font-size: 1.4rem;
+ margin-left: 3rem;
+}
+
+.mencategory{
+ margin-right: 3rem;
+}
+
+.mencategory a{
+ text-decoration: none;
+ color: inherit;
+}
+
+.mencategory p{
+ margin-bottom: .6rem;
+ font-size: 1.3rem;
+}
+
+
+
+
+/* ----media query----- */
+
+@media screen and (max-width: 1040px) {
+ .shopallmen-container{
+  width: 60%;
+ }
+}
+
+@media screen and (max-width: 740px) {
+ .shopallmen-container{
+  padding: 0 2rem;
+ }
+
+ .mencollection-header{
+  width: 100%;
+  gap: 2rem;
+  margin-left: 0;
+  font-size: 1.2rem;
+ }
+
+ .mencategory{
+  width: 100%;
+  margin-right: 0;
+ }
+
+ .mencategory p{
+  font-size: 1.2rem;
+ }
+}
+
+@media screen and (max-width: 560px) {
+ .shopallmen-container{
+  width: 80%;
+ }
+}
+
+@media screen and (max-width: 400px) {
+ .mencollection-header{
+  font-size: 1.1rem;
+ }
+
+ .mencategory p{
+  font-size: 1.1rem;
+ }
+}
