@@ -1,14 +1,14 @@
 import React from 'react';
 import './NowInSale.css';
 import Item from '../Item/Item';
-import bestsellers from '../Assets/bestsellers';
+import nowinsale from '../Assets/nowinsale';
 
 const NowInSale = () => { 
   return (
     <div className="nowinsale">
       <h1>Now in Sale</h1>
       <div className="nowinsale-items">
-        {bestsellers.map((item) => {
+        {nowinsale.map((item) => {
           const images = [...item.image];
           return (
             <Item
@@ -21,7 +21,6 @@ const NowInSale = () => {
           );
         })}
       </div>
-      <button>View more</button>
     </div>
   );
 }

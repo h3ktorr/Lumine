@@ -22,17 +22,6 @@
  cursor: pointer;
 }
 
-.nowinsale button{
- background-color: #E8E8E6;
- width: 7rem;
- min-height: 2rem;
- border-radius: 10px;
- align-self: flex-end;
- font-family: "Itim";
- font-size: 1rem;
- color: #000;
-}
-
 
 
 /* ----media query----- */
@@ -52,11 +41,5 @@
 @media screen and (max-width: 400px) {
  .nowinsale h1 {
   font-size: 1.15rem;
- }
-
- .nowinsale button {
-  max-width: 5rem;
-  min-height: 1.5rem;
-  font-size: 0.8rem;
  }
 }
